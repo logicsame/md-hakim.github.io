@@ -22,8 +22,8 @@ repository               : "logicsame/md-hakim.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/df.png"
   name             : "MD Azizu Hakim"
+  avatar           : "images/df.png"
   pronouns         : "He/Him" 
   bio              : "LLM, AI Agent and General AI Agent Developer"
   location         : "Earth"
