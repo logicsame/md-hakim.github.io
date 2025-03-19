@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to the Intersection of AI Research & Industry Solutions"
+
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,7 +15,38 @@ redirect_from:
 
 ## Breaking New Ground in AI Research
 
-My research focuses on developing a **self-repairing biological deep learning algorithm with homeostatic regulation** - a groundbreaking approach showing superior performance on critical biomedical datasets (AIDS, HIV, COX2, protein analysis). This innovation demonstrates significant potential for pharmaceutical and biological research applications.
+My research focuses on developing a **self-repairing biological deep learning algorithm with homeostatic regulation** - a groundbreaking approach showing superior performance on critical biomedical datasets (AIDS, HIV, COX2, protein analysis). This innovation demonstrates significant potential for pharmaceutical and biological research applications and LLM, AI agents, general ai agents based applications
+
+## Research Expertise & Current Focus
+
+My research expertise extends across advanced AI paradigms, with a current focus on integrating complementary technologies for powerful, application-ready systems:
+
+### LLM Innovation
+- Developing context-aware fine-tuning techniques for domain-specific LLM adaptation
+- Researching transformer architecture modifications for improved memory efficiency
+- Creating novel prompt engineering frameworks for complex reasoning tasks
+- Implementing biological homeostatic principles to enhance LLM stability and reliability
+
+### AI Agent Architecture
+- Designing autonomous agents with advanced planning and reasoning capabilities
+- Researching multi-modal perception systems for enhanced environmental understanding
+- Developing self-repair mechanisms for resilient agent operation in dynamic environments
+- Creating agent evaluation frameworks that measure adaptability and task performance
+
+### General AI Agent Systems
+- Building integrated platforms that combine LLMs, computer vision, and reinforcement learning
+- Researching emergent behaviors in multi-agent collaborative systems
+- Developing cross-domain knowledge transfer mechanisms between specialized agents
+- Creating standardized benchmarks for measuring general AI capabilities
+
+### Combined Technology Applications
+I'm currently pioneering applications that merge these research areas into unified systems, focusing on:
+- Healthcare diagnostic and treatment recommendation systems
+- Intelligent manufacturing process optimization
+- Personalized education platforms with adaptive learning paths
+- Environmental monitoring and resource management solutions
+
+This interdisciplinary approach allows me to address complex real-world challenges by leveraging the strengths of multiple AI paradigms within a cohesive framework.
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <h3 style="color: #2a7ae2; margin-top: 0;">AI Solutions Architect & Owner</h3>
@@ -46,24 +77,9 @@ My research focuses on developing a **self-repairing biological deep learning al
 - **Cloud Solutions**: AWS (SageMaker, EC2, S3), Google Cloud Platform (AI Platform)
 - **Specialized Skills**: Computer Vision, NLP, Speech Recognition, Generative AI, Federated Learning
 
-## Success Stories
+## Projects
 
-<div style="margin: 30px 0;">
-  <div style="margin-bottom: 25px; border-left: 4px solid #2a7ae2; padding-left: 15px;">
-    <h3>AI-Powered Food Recommendation System</h3>
-    <p>Combined OCR and generative AI to create personalized recommendations with 95% user satisfaction</p>
-  </div>
-  
-  <div style="margin-bottom: 25px; border-left: 4px solid #2a7ae2; padding-left: 15px;">
-    <h3>Bengali-English Translation System</h3>
-    <p>Leveraged 30M sentence pairs to build a robust translation system for low-resource languages</p>
-  </div>
-  
-  <div style="margin-bottom: 25px; border-left: 4px solid #2a7ae2; padding-left: 15px;">
-    <h3>Agricultural Yield Prediction</h3>
-    <p>Improved prediction accuracy by 20% using federated learning techniques</p>
-  </div>
-</div>
+For detailed information about my projects and implementations, please visit the [Portfolio](/portfolio/) page.
 
 ## Research & Industry Approach
 
