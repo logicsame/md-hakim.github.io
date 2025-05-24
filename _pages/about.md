@@ -9,48 +9,37 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1 style="color: #2a7ae2; font-size: 2.5em;">MD Azizul Hakim</h1>
-  <h3 style="color: #555;">Machine Learning Engineer & AI Researcher</h3>
+  <h3 style="color: #555;">ML-DL-AI Researcher | ML-DL-AI Engineer</h3>
   <p><em>Transforming complex AI challenges into practical, efficient solutions</em></p>
 </div>
 
+## About Myself
+
+I am MD Azizul Hakim, a dedicated professional deeply involved in the fields of Artificial Intelligence, Machine Learning, and Deep Learning. My journey in AI began formally in 2023 when I took on the role of an AI, ML, and DL Researcher at AI Project Solution. In this capacity, I focus on exploring and advancing the frontiers of intelligent systems. Concurrently, I serve as an AI, ML, and DL Engineer, translating theoretical concepts into tangible applications, and also function as an MLOps Engineer, ensuring that these sophisticated models are deployed, monitored, and maintained efficiently in production environments. My passion lies in bridging the gap between cutting-edge research and real-world impact, creating AI solutions that are not only innovative but also robust and scalable.
+
 ## Breaking New Ground in AI Research
 
-My research focuses on developing a **self-repairing biological deep learning algorithm with homeostatic regulation** - a groundbreaking approach showing superior performance on critical biomedical datasets (AIDS, HIV, COX2, protein analysis). This innovation demonstrates significant potential for pharmaceutical and biological research applications and LLM, AI agents, general ai agents based applications
+My current research endeavors are centered on developing a **self-repairing biological deep learning algorithm featuring homeostatic regulation**. This pioneering approach has demonstrated superior performance on critical biomedical datasets, including those related to AIDS, HIV, COX2, and protein analysis. The potential applications of this innovation are vast, particularly within pharmaceutical and biological research, as well as in enhancing the capabilities of Large Language Models (LLMs), AI agents, and general AI systems.
 
 ## Research Expertise & Current Focus
 
-My research expertise extends across advanced AI paradigms, with a current focus on integrating complementary technologies for powerful, application-ready systems:
+My research expertise spans various advanced AI paradigms. I am currently focused on integrating complementary technologies to build powerful, application-ready systems. Key areas include:
 
 ### LLM Innovation
-- Developing context-aware fine-tuning techniques for domain-specific LLM adaptation
-- Researching transformer architecture modifications for improved memory efficiency
-- Creating novel prompt engineering frameworks for complex reasoning tasks
-- Implementing biological homeostatic principles to enhance LLM stability and reliability
+Developing context-aware fine-tuning techniques, researching efficient transformer architectures, creating novel prompt engineering frameworks, and implementing biological principles to enhance LLM stability.
 
 ### AI Agent Architecture
-- Designing autonomous agents with advanced planning and reasoning capabilities
-- Researching multi-modal perception systems for enhanced environmental understanding
-- Developing self-repair mechanisms for resilient agent operation in dynamic environments
-- Creating agent evaluation frameworks that measure adaptability and task performance
+Designing autonomous agents with advanced planning, multi-modal perception, self-repair mechanisms, and robust evaluation frameworks.
 
 ### General AI Agent Systems
-- Building integrated platforms that combine LLMs, computer vision, and reinforcement learning
-- Researching emergent behaviors in multi-agent collaborative systems
-- Developing cross-domain knowledge transfer mechanisms between specialized agents
-- Creating standardized benchmarks for measuring general AI capabilities
+Building integrated platforms combining LLMs, computer vision, and reinforcement learning, researching multi-agent collaboration, developing cross-domain knowledge transfer, and creating benchmarks for general AI capabilities.
 
 ### Combined Technology Applications
-I'm currently pioneering applications that merge these research areas into unified systems, focusing on:
-- Healthcare diagnostic and treatment recommendation systems
-- Intelligent manufacturing process optimization
-- Personalized education platforms with adaptive learning paths
-- Environmental monitoring and resource management solutions
-
-This interdisciplinary approach allows me to address complex real-world challenges by leveraging the strengths of multiple AI paradigms within a cohesive framework.
+I am actively pioneering applications that merge these research areas, focusing on healthcare diagnostics, intelligent manufacturing, personalized education, and environmental monitoring.
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <h3 style="color: #2a7ae2; margin-top: 0;">AI Solutions Architect & Owner</h3>
-  <p>Through <strong>AI Project Solution</strong>, I've delivered 30+ successful AI/ML/DL projects to clients worldwide, combining research depth with practical implementation to solve real-world problems.</p>
+  <p>Through <strong>AI Project Solution</strong>, where my journey began in 2023, I have successfully delivered over 30 AI/ML/DL projects to a global clientele. This experience allows me to combine deep research insights with practical implementation skills to solve complex, real-world problems effectively.</p>
 </div>
 
 ## Expertise Focus Areas
@@ -58,58 +47,53 @@ This interdisciplinary approach allows me to address complex real-world challeng
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 30px 0;">
   <div style="flex: 1; min-width: 250px; margin: 10px; padding: 15px; background-color: #e8f4f8; border-radius: 8px;">
     <h3 style="color: #2a7ae2;">Large Language Models</h3>
-    <p>Implementation, fine-tuning, and deployment of state-of-the-art LLMs for various applications</p>
+    <p>Expertise in implementation, fine-tuning, and deployment of state-of-the-art LLMs for diverse applications.</p>
   </div>
   <div style="flex: 1; min-width: 250px; margin: 10px; padding: 15px; background-color: #e8f4f8; border-radius: 8px;">
     <h3 style="color: #2a7ae2;">AI Agents</h3>
-    <p>Development of autonomous AI systems capable of complex decision-making and task execution</p>
+    <p>Proficient in developing autonomous AI systems capable of sophisticated decision-making and task execution.</p>
   </div>
   <div style="flex: 1; min-width: 250px; margin: 10px; padding: 15px; background-color: #e8f4f8; border-radius: 8px;">
-    <h3 style="color: #2a7ae2;">General AI Solutions</h3>
-    <p>Creating versatile AI systems with broad applicability across industries and use cases</p>
+    <h3 style="color: #2a7ae2;">MLOps Engineering</h3>
+    <p>Skilled in building and managing robust pipelines for deploying and maintaining machine learning models in production.</p>
   </div>
 </div>
 
 ## Technical Arsenal
 
+My technical toolkit includes:
 - **Advanced AI/ML/DL**: Python, PyTorch, TensorFlow, Keras, Scikit-learn
-- **MLOps & Deployment**: MLflow, Git Action, Docker, Kubernetes, CI/CD
-- **Cloud Solutions**: AWS (SageMaker, EC2, S3), Google Cloud Platform (AI Platform)
-- **Specialized Skills**: Computer Vision, NLP, Speech Recognition, Generative AI, Federated Learning
+- **MLOps & Deployment**: MLflow, Git Actions, Docker, Kubernetes, CI/CD pipelines
+- **Cloud Platforms**: AWS (SageMaker, EC2, S3), Google Cloud Platform (AI Platform)
+- **Specialized Areas**: Computer Vision, Natural Language Processing (NLP), Speech Recognition, Generative AI, Federated Learning
 
-## Projects
+## Projects & Portfolio
 
-For detailed information about my projects and implementations, please visit the [Portfolio](/portfolio/) page.
+For detailed insights into my projects and practical implementations, please explore the [Portfolio](/portfolio/) section of this site.
 
 ## Research & Industry Approach
 
-As a **Kaggle Notebooks Master** and owner of **AI Project Solution**, I bring both academic rigor and practical implementation expertise to every project. My experience includes:
+As a **Kaggle Notebooks Master** and the driving force behind **AI Project Solution**, I bring a unique blend of academic rigor and practical application to every challenge. My approach involves:
 
-- Writing research papers following standards of prestigious journals like Nature Machine Intelligence
-- Building a strong reputation for delivering scalable, production-ready solutions
-- Maintaining research integrity while solving real-world business problems
+- Adhering to the high standards of research paper writing, comparable to prestigious journals like Nature Machine Intelligence.
+- Consistently delivering scalable, production-ready AI solutions.
+- Maintaining research integrity while effectively addressing real-world business needs.
 
 ## Let's Collaborate
 
-I'm currently available for:
+I am actively seeking opportunities for collaboration and engagement in areas such as:
 
-- End-to-end ML solution development
-- Research implementation and paper writing
-- MLOps pipeline development
-- AI model optimization and deployment
-- Custom AI/ML solution consulting
-- LLM implementation and fine-tuning
-- AI agent development
+- End-to-end Machine Learning solution development
+- Implementation of research findings and academic paper writing
+- Development and optimization of MLOps pipelines
+- AI model tuning, deployment, and performance enhancement
+- Consulting for custom AI/ML solutions tailored to specific needs
+- Advanced LLM implementation, fine-tuning, and application
+- Design and development of sophisticated AI agents
 
 <div style="background-color: #e8f4f8; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center;">
-  <h3 style="color: #2a7ae2; margin-top: 0;">Looking to leverage AI for your specific challenges?</h3>
-  <p>Let's discuss how we can create impactful solutions for your business.</p>
-  <a href="mailto:your.email@example.com" style="display: inline-block; background-color: #2a7ae2; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px;">Get in Touch</a>
+  <h3 style="color: #2a7ae2; margin-top: 0;">Interested in leveraging cutting-edge AI for your specific challenges?</h3>
+  <p>I invite you to connect with me to discuss how we can collaborate to create impactful and innovative solutions for your organization.</p>
+  <a href="mailto:azizulhakim8291@gmail.com" style="display: inline-block; background-color: #2a7ae2; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px;">Get in Touch</a>
 </div>
 
-<script>
-  // This script can be used to add any interactive elements to your page
-  document.addEventListener('DOMContentLoaded', function() {
-    // Add any JavaScript functionality here
-  });
-</script>
