@@ -5,7 +5,7 @@ permalink: /achievement/
 author_profile: true
 ---
 
-<img src="{{ site.baseurl }}/images/achievement_medal.png" alt="Achievement Medal" 
+<img src="https://logicsame.github.io/md-hakim.github.io/images/achievement_medal.png" alt="Achievement Medal" 
 style="float: right; margin: 0 0 1em 1em; max-width: 200px; border-radius: 
 8px;">
 
