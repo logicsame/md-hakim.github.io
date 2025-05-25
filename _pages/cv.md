@@ -39,7 +39,7 @@ classes: wide
 
   <div class="cv-section">
     <h2><i class="fas fa-user"></i> Professional Summary</h2>
-    <p>Accomplished AI/ML/DL Researcher and Engineer with a proven track record of delivering over 30 successful projects across diverse domains. As the founder of AI Project Solution since 2023, I specialize in developing cutting-edge machine learning solutions, implementing robust MLOps practices, and pioneering research in biologically-inspired neural networks. My recognition as a Kaggle Notebooks Master and 2nd Runner-Up in a national AI Agent Development Competition demonstrates my expertise in both theoretical research and practical implementation. I excel at bridging the gap between cutting-edge research and real-world impact, creating AI solutions that are not only innovative but also robust and scalable.</p>
+    <p>Accomplished AI/ML/DL Researcher and Engineer with a proven track record of delivering over 30+ successful projects across diverse domains. As the founder of AI Project Solution since 2023, I specialize in developing cutting-edge machine learning solutions, implementing robust MLOps practices, and pioneering research in biologically-inspired neural networks. My recognition as a Kaggle Notebooks Master and 2nd Runner-Up in a national AI Agent Development Competition demonstrates my expertise in both theoretical research and practical implementation. I excel at bridging the gap between cutting-edge research and real-world impact, creating AI solutions that are not only innovative but also robust and scalable.</p>
   </div>
 
   <div class="cv-section">
@@ -47,7 +47,7 @@ classes: wide
     <div class="cv-item">
       <div class="cv-item-header">
         <div class="cv-item-title">2nd Runner-Up - AI Agent Development Competition</div>
-        <div class="cv-item-date">2024</div>
+        <div class="cv-item-date">2025</div>
       </div>
       <div class="cv-item-subtitle">Intent Company in collaboration with International Islamic University Chittagong (IIUC)</div>
       <div class="cv-item-summary">
@@ -78,7 +78,7 @@ classes: wide
     <div class="cv-item">
       <div class="cv-item-header">
         <div class="cv-item-title">Published Research Contributions</div>
-        <div class="cv-item-date">2024-2025</div>
+        <div class="cv-item-date">2025</div>
       </div>
       <div class="cv-item-summary">
         Authored multiple peer-reviewed conference papers in cutting-edge AI domains:
@@ -121,7 +121,7 @@ classes: wide
     <div class="cv-item">
       <div class="cv-item-header">
         <div class="cv-item-title">Biological Neural Network Architecture Development</div>
-        <div class="cv-item-date">2024 - Present</div>
+        <div class="cv-item-date">2025 - Present</div>
       </div>
       <div class="cv-item-summary">
         Currently developing a novel biological neural network architecture that more closely mimics intricate processes observed in biological brains. This research is undergoing rigorous peer review for publication in a prestigious Springer Nature journal.
@@ -158,7 +158,7 @@ classes: wide
     <div class="cv-item">
       <div class="cv-item-header">
         <div class="cv-item-title">NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention</div>
-        <div class="cv-item-date">2024</div>
+        <div class="cv-item-date">2025</div>
       </div>
       <div class="cv-item-subtitle">IEEE Conference Proceedings</div>
       <div class="cv-item-summary">
@@ -175,7 +175,7 @@ classes: wide
     <div class="cv-item">
       <div class="cv-item-header">
         <div class="cv-item-title">Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer</div>
-        <div class="cv-item-date">2024</div>
+        <div class="cv-item-date">2025</div>
       </div>
       <div class="cv-item-subtitle">Conference Proceedings</div>
       <div class="cv-item-summary">

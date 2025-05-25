@@ -2,12 +2,12 @@
 title: "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention"
 category: conferences
 collection: publications
-permalink: /publication/2024-05-24-nutriguard
+permalink: /publication/2025-05-24-nutriguard
 excerpt: 'This conference paper presents NutriGuard, an innovative system leveraging Large Language Models (LLMs) for comprehensive nutritional assessment aimed at preventing chronic diseases. The system analyzes dietary intake and health data to provide personalized recommendations and risk assessments...'
-date: 2024-05-24 # Or actual conference date if known
+date: 2025-05-24 # Or actual conference date if known
 venue: 'IEEE' # Updated venue
 # paperurl: '' # Commented out paperurl as no link provided
-citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2024). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE Conference Proceedings</i>.' # Updated citation venue
+citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2025). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE Conference Proceedings</i>.' # Updated citation venue
 ---
 
 This conference paper presents NutriGuard, an innovative system leveraging Large Language Models (LLMs) for comprehensive nutritional assessment aimed at preventing chronic diseases. The system analyzes dietary intake and health data to provide personalized recommendations and risk assessments, contributing significantly to the fields of Big Data, Artificial Intelligence, and Machine Learning.

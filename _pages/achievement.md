@@ -56,7 +56,7 @@ style="float: right; margin: 0 0 1em 1em; max-width: 200px; border-radius:
   <div class="achievement-content" style="flex: 1;">
     <h3 style="margin-top: 0; color: #2c3e50;">NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention</h3>
     <p><strong>Authors:</strong> Md Azizul Hakim, Rashedul Arefin Ifty, Khaled Eabne Delowar, Sazzad Hossen Chowdhury, Imdadur Rashid, Md Shakib</p>
-    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Year:</strong> 2025</p>
     <p><strong>Venue:</strong> IEEE Conference Proceedings</p>
     <p>This conference paper presents NutriGuard, an innovative system leveraging Large Language Models (LLMs) for comprehensive nutritional assessment aimed at preventing chronic diseases. The system analyzes dietary intake and health data to provide personalized recommendations and risk assessments.</p>
     <div style="margin-top: 1em;">
@@ -71,7 +71,7 @@ style="float: right; margin: 0 0 1em 1em; max-width: 200px; border-radius:
   <div class="achievement-content" style="flex: 1;">
     <h3 style="margin-top: 0; color: #2c3e50;">Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer</h3>
     <p><strong>Author:</strong> Md Azizul Hakim</p>
-    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Year:</strong> 2025</p>
     <p><strong>Venue:</strong> Conference Proceedings</p>
     <p>This conference paper introduces Neuroadaptive Intelligence, a novel approach inspired by biological systems. It details the development of a self-repairing neural layer incorporating adaptive learning mechanisms specifically designed for molecular graph classification, representing a significant contribution to biologically-inspired AI.</p>
     <div style="margin-top: 1em;">
