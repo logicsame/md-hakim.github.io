@@ -23,6 +23,6 @@ This conference paper presents NutriGuard, an innovative system leveraging Large
 
 **Topics:** Big Data, Artificial Intelligence & Machine Learning
 
-*[Download paper here](http://academicpages.github.io/files/paper1.pdf) (Link placeholder)*
+*[Download paper here](http://academicpages.github.io/files/paper1.pdf)*
 
-Recommended citation: Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2024). "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention." <i>Conference Proceedings (To be added)</i>.
+citation: Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2024). "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention." <i>Conference Proceedings (To be added)</i>.
