@@ -5,7 +5,7 @@ permalink: /achievement/
 author_profile: true
 ---
 
-<img src="/images/achievement_medal.png" alt="Achievement Medal" style="float: right; margin: 0 0 1em 1em; max-width: 200px; border-radius: 8px;">
+<img src="achievement_medal.png" alt="Achievement Medal" style="float: right; margin: 0 0 1em 1em; max-width: 200px; border-radius: 8px;">
 
 This section highlights significant recognitions and accomplishments achieved throughout my academic and professional journey in the field of Artificial Intelligence.
 
