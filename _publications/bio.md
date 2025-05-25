@@ -4,10 +4,9 @@ collection: publications
 permalink: /publication/2025-04-12-neuroplasticity-approach
 category: conferences # Added category to ensure it displays
 date: 2025-04-12 # Using submission date
-venue: 'IEEE' # Updated venue
-# paperurl: '' # Commented out paperurl as no link provided
-excerpt: 'In the rapidly advancing realm of artificial intelligence, bridging biological processes with computational models has become a pivotal strategy for enhancing robustness and adaptability in neural networks. This paper introduces and evaluates a biologically inspired neural network layer—termed BioLogicalNeuron—across multiple image classification benchmarks...' # Added excerpt for abstract display
-citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Shuvo, S. A., Tasneem, Z., & Alam, M. I. (2025). &quot;A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.&quot; <i>IEEE Conference Proceedings</i>.' # Updated citation venue
+venue: 'Conference Name (To be added if known)' # Add conference name if known
+# paperurl: '...' # Add link if available
+citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Shuvo, S. A., Tasneem, Z., & Alam, M. I. (2025). &quot;A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.&quot; <i>Conference Proceedings (To be added)</i>.'
 ---
 
 **Abstract:**
