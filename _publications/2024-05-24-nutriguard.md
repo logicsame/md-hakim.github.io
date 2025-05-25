@@ -1,5 +1,6 @@
 ---
 title: "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention"
+category: conferences
 collection: publications
 permalink: /publication/2024-05-24-nutriguard
 # excerpt: 'This paper explores...' # Optional excerpt

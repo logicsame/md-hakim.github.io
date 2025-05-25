@@ -1,6 +1,7 @@
 ---
 title: "Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification"
 collection: publications
+category: conferences # <-- Add this line
 permalink: /publication/2024-05-24-neuroadaptive
 # excerpt: 'This paper introduces...'
 # date: 2024-05-24 # Or actual conference date if known
