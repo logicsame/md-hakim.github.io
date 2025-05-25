@@ -16,6 +16,6 @@ This conference paper introduces Neuroadaptive Intelligence, a novel approach in
 
 *   **Md Azizul Hakim** (Student, Bangladesh Sweden Polytechnic Institute, Bangladesh)
 
-*[Download paper here](http://academicpages.github.io/files/paper2.pdf) (Link placeholder)*
+*[Download paper here](http://academicpages.github.io/files/paper2.pdf)*
 
-Recommended citation: Hakim, M. A. (2024). "Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification." <i>Conference Proceedings (To be added)</i>.
+citation: Hakim, M. A., Ifty, R. A. "Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification." <i>Conference Proceedings (To be added)</i>.
