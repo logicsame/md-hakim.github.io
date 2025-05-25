@@ -32,14 +32,14 @@ Developing context-aware fine-tuning techniques, researching efficient transform
 Designing autonomous agents with advanced planning, multi-modal perception, self-repair mechanisms, and robust evaluation frameworks.
 
 ### General AI Agent Systems
-Building integrated platforms combining LLMs, computer vision, and reinforcement learning, researching multi-agent collaboration, developing cross-domain knowledge transfer, and creating benchmarks for general AI capabilities.
+Building integrated platforms combining LLMs, computer vision, and researching multi-agent collaboration, developing cross-domain knowledge transfer, and creating benchmarks for general AI capabilities.
 
 ### Combined Technology Applications
 I am actively pioneering applications that merge these research areas, focusing on healthcare diagnostics, intelligent manufacturing, personalized education, and environmental monitoring.
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <h3 style="color: #2a7ae2; margin-top: 0;">AI Solutions Architect & Owner</h3>
-  <p>Through <strong>AI Project Solution</strong>, where my journey began in 2023, I have successfully delivered over 30 AI/ML/DL projects to a global clientele. This experience allows me to combine deep research insights with practical implementation skills to solve complex, real-world problems effectively.</p>
+  <p>Through <strong>AI Project Solution</strong>, where my journey began in 2023, I have successfully delivered over 30+ AI/ML/DL projects to clientele. This experience allows me to combine deep research insights with practical implementation skills to solve complex, real-world problems effectively.</p>
 </div>
 
 ## Expertise Focus Areas
@@ -62,10 +62,11 @@ I am actively pioneering applications that merge these research areas, focusing 
 ## Technical Arsenal
 
 My technical toolkit includes:
-- **Advanced AI/ML/DL**: Python, PyTorch, TensorFlow, Keras, Scikit-learn
+- **Advanced ML/DL**: Python, PyTorch, TensorFlow, Keras, Scikit-learn
 - **MLOps & Deployment**: MLflow, Git Actions, Docker, Kubernetes, CI/CD pipelines
 - **Cloud Platforms**: AWS (SageMaker, EC2, S3), Google Cloud Platform (AI Platform)
 - **Specialized Areas**: Computer Vision, Natural Language Processing (NLP), Speech Recognition, Generative AI, Federated Learning
+- **AI Agent Engineering**: LangChain, LangGraph, LangFlow, CrewAI, Ollama, AutoGen, LlamaIndex, Semantic Kernel, Model Context Protocol (MCP), ReAct frameworks, tool calling and function execution, multi-agent orchestration, retrieval-augmented generation (RAG), vector embeddings, agent memory systems, workflow automation, prompt engineering and optimization
 
 ## Projects & Portfolio
 
