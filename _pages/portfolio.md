@@ -52,7 +52,8 @@ My AI engineering portfolio demonstrates the practical application of cutting-ed
 - **Fundraising Agents:** Pitch deck generation, due diligence preparation
 
 **Technical Stack:** LangChain, LangGraph, CrewAI, FastAPI, Stramlit, Langflow
-*Currently in development for SaaSLabs Hackathon*
+
+[**View Project Repository**](https://github.com/logicsame/FounderAI---Executive-AI-Agent-Platform.git)
 
 ---
 
