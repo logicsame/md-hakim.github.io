@@ -23,7 +23,7 @@ repository               : "logicsame/md-hakim.github.io"
 author:
   # Biographic information
   name             : "MD Azizul Hakim"
-  avatar           : "images/Profile.jpg"
+  avatar           : "Profile.jpg"
   pronouns         : "He/Him" 
   bio              : "ML-DL-AI Researcher | ML-DL-AI Engineer"
   location         : "Earth"
