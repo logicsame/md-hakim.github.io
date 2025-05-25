@@ -89,15 +89,24 @@
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
   }
 
   img {
     max-width: 175px;
     border-radius: 50%;
-
+    
     @include breakpoint($large) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       padding: 5px;
       border: 1px solid var(--global-border-color);
     }
@@ -116,6 +125,8 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
+    margin-top: 1.5em;
   }
 }
 
@@ -125,6 +136,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 600;
   }
 }
 .sidebar .author__name {
@@ -154,6 +166,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    line-height: 1.6;
   }
 }
 
@@ -249,16 +262,18 @@
 
   a {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
 
     &:hover {
       text-decoration: underline;
+      color: var(--global-theme-color);
     }
   }
 }
