@@ -5,7 +5,7 @@ category: conferences # <-- Add this line
 permalink: /publication/2024-05-24-neuroadaptive
 # excerpt: 'This paper introduces...'
 # date: 2024-05-24 # Or actual conference date if known
-venue: 'Conference Name (To be added if known)' # Add conference name if known
+venue: 'IEEE' # Add conference name if known
 # paperurl: 'http://academicpages.github.io/files/paper2.pdf' # Add link if available
 citation: 'Hakim, M. A. (2024). &quot;Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification.&quot; <i>Conference Proceedings (To be added)</i>.'
 ---

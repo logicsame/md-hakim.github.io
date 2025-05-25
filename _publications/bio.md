@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-04-12-neuroplasticity-approach
 category: conferences # Added category to ensure it displays
 date: 2025-04-12 # Using submission date
-venue: 'Conference Name (To be added if known)' # Add conference name if known
+venue: 'IEEE' # Add conference name if known
 # paperurl: '...' # Add link if available
 citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Shuvo, S. A., Tasneem, Z., & Alam, M. I. (2025). &quot;A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.&quot; <i>Conference Proceedings (To be added)</i>.'
 ---

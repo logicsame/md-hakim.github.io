@@ -5,7 +5,7 @@ collection: publications
 permalink: /publication/2024-05-24-nutriguard
 # excerpt: 'This paper explores...' # Optional excerpt
 date: 2024-05-24 # Or actual conference date if known
-venue: 'Conference Name (To be added if known)' # Add conference name if known
+venue: 'IEEE' # Add conference name if known
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf' # Add link if available
 citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2024). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>Conference Proceedings (To be added)</i>.'
 ---
