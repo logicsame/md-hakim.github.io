@@ -53,7 +53,7 @@ My AI engineering portfolio demonstrates the practical application of cutting-ed
 
 **Technical Stack:** LangChain, LangGraph, CrewAI, FastAPI, Stramlit, Langflow
 
-[**View Project Repository**](https://github.com/logicsame/FounderAI---Executive-AI-Agent-Platform.git)
+[**View Project Repository**](https://github.com/logicsame/IIUC-Competition)
 
 ---
 

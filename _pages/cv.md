@@ -32,7 +32,7 @@ classes: wide
       </div>
       <div class="cv-profile-item">
         <i class="fas fa-globe"></i>
-        <a href="https://github.com/logicsame" target="_blank">AI Project Solution</a>
+        <a href="https://www.facebook.com/share/15f45cMZaR/" target="_blank">AI Project Solution</a>
       </div>
     </div>
   </div>
