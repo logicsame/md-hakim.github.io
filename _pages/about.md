@@ -40,17 +40,10 @@ Building integrated platforms combining LLMs, computer vision, and researching m
 I am actively pioneering applications that merge these research areas, focusing on healthcare diagnostics, intelligent manufacturing, personalized education, and environmental monitoring.
 
 
-Please click here for my [CV]()
+Please click here for my [cv]()
 
 For detailed insights into my projects and practical implementations, please explore the [Portfolio](/portfolio/) section of this site.
 
-## Research & Industry Approach
-
-As a **Kaggle Notebooks Master** and the driving force behind **AI Project Solution**, I bring a unique blend of academic rigor and practical application to every challenge. My approach involves:
-
-- Adhering to the high standards of research paper writing, comparable to prestigious journals like Nature Machine Intelligence.
-- Consistently delivering scalable, production-ready AI solutions.
-- Maintaining research integrity while effectively addressing real-world business needs.
 
 
 
