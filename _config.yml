@@ -13,7 +13,7 @@ title                    : "Hakim's Homepage"
 title_separator          : "-"
 name                     : &name "MD Azizul Hakim"
 description              : &description "personal description"
-url                      : https://logicsame.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://logicsame.github.io/md-hakim.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "logicsame/md-hakim.github.io"
 
