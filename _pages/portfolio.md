@@ -14,7 +14,7 @@ My research develops biologically-inspired frameworks that enhance the robustnes
 ### Biologically Inspired Neural Network with Homeostatic Regulation
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://logicsame.github.io/md-hakim.github.io//images/biological_neuron.gif" alt="Biological Neural Network Visualization" style="max-width: 100%; height: 50%; border-radius: 8px;">
+  <img src="https://logicsame.github.io/md-hakim.github.io//images/biological_neuron.gif" alt="Biological Neural Network Visualization" style="max-width: 60%; height: auto; border-radius: 8px;">
 </div>
 
 **Published:** Scientific Reports (Nature Portfolio), 2025  
