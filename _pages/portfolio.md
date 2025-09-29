@@ -1,154 +1,180 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-#  Welcome to My AI Innovation Lab
-
-Welcome to my comprehensive portfolio showcasing cutting-edge projects in **Machine Learning**, **Deep Learning**, and **Artificial Intelligence**. From competitive data science challenges to production-ready AI applications, my work demonstrates the full spectrum of AI capabilities solving real-world problems.
+My research develops biologically-inspired frameworks that enhance the robustness and adaptability of artificial neural networks. I have demonstrated the practical relevance of these approaches across diverse domains, including molecular property prediction, biomedical classification, and graph-structured data analysis. These applications are enabled by architectures that integrate homeostatic regulation, multi-scale temporal coordination, and self-repair mechanisms, thereby achieving stable, resilient, and biologically-faithful artificial intelligence systems that maintain reliable performance under perturbation and environmental variability.
 
 ---
 
-##  Machine Learning & Deep Learning Excellence
+## Research Implementation
 
-I actively compete and collaborate on **Kaggle**, where I tackle complex datasets and push the boundaries of predictive modeling. My competitive journey showcases expertise in data analysis, feature engineering, and advanced model architectures.
+### Biologically Inspired Neural Network with Homeostatic Regulation
 
-### 🏆 **Competitive Data Science**
-- Advanced statistical modeling and ensemble techniques
-- Deep learning architectures for computer vision and NLP
-- Feature engineering and data preprocessing pipelines
-- Model optimization and hyperparameter tuning
+<div style="text-align: center; margin: 20px 0;">
+  <img src="images/biological_neuron.gif" alt="Biological Neural Network Visualization" style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
 
-[**🔗 Explore My Kaggle Profile**](https://www.kaggle.com/hakim11)
+**Published:** Scientific Reports (Nature Portfolio), 2025  
+**DOI:** [10.1038/s41598-025-09114-8](https://doi.org/10.1038/s41598-025-09114-8)
+
+**Research Problem:** Artificial neural networks suffer from brittleness under perturbation and lack the self-repair capabilities inherent to biological systems, limiting their reliability in real-world deployments.
+
+**Solution Architecture:**
+- **Homeostatic Regulation Layer** - Maintains network stability through biological feedback mechanisms
+- **Adaptive Repair Mechanisms** - Self-healing capabilities for damaged or perturbed network components
+- **Multi-Scale Coordination** - Integration across temporal scales for robust function
+- **Biologically-Principled Design** - Grounded in neuroscience and evolutionary biology principles
+
+**Validation Domains:**
+- Molecular property prediction (AIDS, HIV, COX2 datasets)
+- Protein analysis and classification
+- Biomedical graph-structured data
+- Drug discovery applications
+
+**Key Contributions:**
+- First implementation of homeostatic regulation in artificial neural network layers
+- Demonstrated superior performance on critical biomedical benchmarks
+- Established foundation for biologically-faithful AI architectures
+- Validated self-repair mechanisms under various perturbation scenarios
+
+**Technical Implementation:** PyTorch, Graph Neural Networks, Custom Layer Architecture
+
+**Authors:** MD Azizul Hakim, Mohammad Ifazul Alam
+
+[View Implementation](https://github.com/logicsame/bio-logical-self-healing-neural-system) | [Read Paper](https://doi.org/10.1038/s41598-025-09114-8)
 
 ---
 
-##  Production-Ready AI Applications
+## Engineering Applications
 
-My AI engineering portfolio demonstrates the practical application of cutting-edge technologies to solve complex business problems. Each project represents a complete solution from research to deployment.
+My engineering work translates research insights into production-ready systems, demonstrating practical applications of advanced AI technologies across diverse domains.
 
-###  **Featured Projects**
+### Competitive Data Science
 
+I actively compete on **Kaggle**, applying advanced machine learning techniques to complex real-world datasets. This work demonstrates expertise in statistical modeling, feature engineering, and predictive analytics.
 
+**Core Competencies:**
+- Advanced ensemble methods and model stacking
+- Deep learning for computer vision and NLP tasks
+- Feature engineering and dimensionality reduction
+- Hyperparameter optimization and cross-validation strategies
 
-####  **FounderAI - Executive AI Agent Platform**
+[Explore Kaggle Profile](https://www.kaggle.com/hakim11)
+
+---
+
+### FounderAI - Executive AI Agent Platform
 *Multi-Agent System for Startup Leadership*
 
-**Problem Solved:** Early-stage founders lack the resources for a complete C-suite team, limiting their ability to execute across marketing, product, technology, and operations.
+**Problem Solved:** Early-stage founders lack resources for complete executive teams, limiting strategic execution across business functions.
 
 **Solution Architecture:**
-- **Multi-Agent Orchestration** - CrewAI LangGraph coordination
-- **Executive Persona Agents** - CMO, CPO, CTO, COO specialized agents
-- **LangChain Integration** - Advanced reasoning and tool usage
-- **Model Context Protocol (MCP)** - Seamless model communication
+- **Multi-Agent Orchestration** - CrewAI and LangGraph coordination
+- **Specialized Executive Agents** - CMO, CPO, CTO, COO personas with domain expertise
+- **Model Context Protocol** - Seamless inter-agent communication
+- **Tool Integration** - Market research, financial modeling, technical planning
 
 **Agent Capabilities:**
-- **CMO Agents:** Market intelligence, positioning, acquisition strategy, content creation
-- **Product Agents:** Roadmap planning, A/B testing, user research
-- **CTO Agents:** Technical architecture, development planning
-- **COO Agents:** Operations optimization, financial modeling
-- **Fundraising Agents:** Pitch deck generation, due diligence preparation
+- Market positioning and acquisition strategy
+- Product roadmap and feature prioritization  
+- Technical architecture and development planning
+- Operations optimization and resource allocation
+- Investor pitch and fundraising materials
 
-**Technical Stack:** LangChain, LangGraph, CrewAI, FastAPI, Stramlit, Langflow
+**Technical Stack:** LangChain, LangGraph, CrewAI, FastAPI, Streamlit
 
-[**View Project Repository**](https://github.com/logicsame/IIUC-Competition)
+[View Repository](https://github.com/logicsame/IIUC-Competition)
 
 ---
 
-##  **Technical Arsenal**
-
-My technical toolkit includes:
-- **Advanced ML/DL**: Python, PyTorch, TensorFlow, Keras, Scikit-learn
-- **MLOps & Deployment**: MLflow, Git Actions, Docker, Kubernetes, CI/CD pipelines
-- **Cloud Platforms**: AWS (SageMaker, EC2, S3), Google Cloud Platform (AI Platform)
-- **Specialized Areas**: Computer Vision, Natural Language Processing (NLP), Speech Recognition, Generative AI, Federated Learning
-- **AI Agent Engineering**: LangChain, LangGraph, LangFlow, CrewAI, Ollama, AutoGen, LlamaIndex, Semantic Kernel, Model Context Protocol (MCP), ReAct frameworks, tool calling and function execution, multi-agent orchestration, retrieval-augmented generation (RAG), vector embeddings, agent memory systems, workflow automation, prompt engineering and optimization
-
-
-
-####  **AI-Driven Tourist Spot Finder**
+### AI-Driven Tourist Spot Finder
 *Intelligent Travel Companion with Multi-Agent Architecture*
 
-**Problem Solved:** Traditional travel planning lacks personalization and real-time insights, leading to suboptimal travel experiences.
+**Problem Solved:** Traditional travel planning lacks personalization and fails to integrate real-time contextual data.
 
 **Solution Architecture:**
-- **FastAPI Production Backend** - Scalable REST API architecture
-- **Machine Learning Recommendation Engine** - Collaborative and content-based filtering
-- **Large Language Model Integration** - GPT-powered destination descriptions
-- **AI Agent System** - Real-time data collection and analysis
-- **MongoDB Database** - Flexible document storage for user profiles and preferences
+- **FastAPI Backend** - Production-grade REST API
+- **ML Recommendation Engine** - Hybrid filtering with collaborative and content-based methods
+- **LLM Integration** - GPT-powered destination insights
+- **Real-Time Data Agents** - Weather, pricing, availability monitoring
+- **MongoDB Storage** - User profiles and preference learning
 
 **Key Features:**
-- Personalized destination recommendations based on user preferences
-- Real-time weather, pricing, and availability data
-- Dynamic itinerary generation with AI-powered insights
-- Multi-modal data processing (text, images, location data)
+- Personalized destination recommendations
+- Dynamic itinerary generation with contextual awareness
+- Multi-modal data integration (text, images, location)
+- Real-time constraint satisfaction
 
 **Technical Stack:** FastAPI, PyTorch, LangChain, MongoDB, Docker
-[**View Project Repository**](https://github.com/logicsame/ai-agent-based-trip-guider-main-file)
+
+[View Repository](https://github.com/logicsame/ai-agent-based-trip-guider-main-file)
 
 ---
 
-####  **Health-Conscious Food Recommendation System**
+### Health-Conscious Food Recommendation System
 *Personalized Nutrition AI with OCR Integration*
 
-**Problem Solved:** Individuals with specific health conditions struggle to make informed dietary choices from food labels and menus.
+**Problem Solved:** Individuals with health conditions struggle to make informed dietary choices from food labels and nutritional information.
 
 **Solution Architecture:**
-- **Advanced OCR System** - Mistral OCR for high-accuracy text extraction from food labels
+- **Advanced OCR Pipeline** - Mistral OCR for food label text extraction
 - **Health Analysis Engine** - LLM-powered nutritional assessment
-- **RAG (Retrieval-Augmented Generation)** - Real-time medical data integration
-- **Personalized Recommendation Engine** - Health condition-aware food suggestions
-- **MongoDB Database** - User health profiles and food database
+- **RAG System** - Medical dietary guideline integration
+- **Personalization Engine** - Health condition-aware recommendations
+- **MongoDB Storage** - User health profiles and food database
 
 **Key Features:**
-- Instant food label analysis through camera capture
-- Health condition-specific dietary recommendations
-- Real-time nutritional database queries
-- Personalized meal planning with health constraints
-- Integration with medical dietary guidelines
+- Real-time food label analysis
+- Medical condition-specific recommendations
+- Nutritional database queries with constraints
+- Personalized meal planning
 
 **Technical Stack:** Mistral OCR, LangChain, RAG, MongoDB, Computer Vision
-[**View Project Repository**](https://github.com/logicsame/health-recommendation-system)
+
+[View Repository](https://github.com/logicsame/health-recommendation-system)
 
 ---
 
-#### 🎤 **Bengali Text-to-Speech Synthesis**
+### Bengali Text-to-Speech Synthesis
 *Transformer-Based Language Model Fine-tuning*
 
-**Problem Solved:** Limited accessibility tools for Bengali speakers due to lack of high-quality TTS systems in the Bengali language.
+**Problem Solved:** Limited accessibility tools for Bengali speakers due to lack of high-quality native TTS systems.
 
 **Solution Architecture:**
-- **Pegasus Model Fine-tuning** - Transformer architecture optimization for Bengali
-- **MLOps Pipeline** - Automated training, validation, and deployment
-- **Custom Dataset Preparation** - Bengali text corpus processing
-- **Model Optimization** - Performance tuning for production deployment
+- **Pegasus Model Fine-tuning** - Transformer optimization for Bengali
+- **MLOps Pipeline** - Automated training and deployment
+- **Custom Dataset Processing** - Bengali corpus preparation
+- **Production Optimization** - Inference performance tuning
 
 **Key Features:**
-- High-quality Bengali speech synthesis
-- Natural-sounding voice generation
+- Natural Bengali speech synthesis
 - Scalable inference pipeline
-- MLOps-driven continuous improvement
-- Production-ready API deployment
+- Continuous model improvement through MLOps
+- Production API deployment
 
 **Technical Stack:** Transformers, PyTorch, MLOps, Docker, Kubernetes
-[**View Project Repository**](https://github.com/logicsame/train-pegasus-model-on-bengali-text-summarization-using-mlops)
+
+[View Repository](https://github.com/logicsame/train-pegasus-model-on-bengali-text-summarization-using-mlops)
 
 ---
 
+## Technical Capabilities
+
+**Machine Learning & Deep Learning:** PyTorch, TensorFlow, Keras, Scikit-learn, Custom Neural Architectures
+
+**MLOps & Deployment:** MLflow, Docker, Kubernetes, CI/CD, Model Monitoring
+
+**Cloud Infrastructure:** AWS (SageMaker, EC2, S3), Google Cloud Platform
+
+**Specialized Domains:** Computer Vision, NLP, Graph Neural Networks, Generative AI
+
+**AI Agent Systems:** LangChain, LangGraph, CrewAI, AutoGen, LlamaIndex, RAG, Vector Databases
 
 ---
 
-## 📈 **Continuous Innovation**
+## Connect
 
-I continuously update my portfolio with cutting-edge research implementations and production-ready solutions. Each project represents not just technical capability, but practical problem-solving that creates real value.
-
-### 🔗 **Connect & Explore**
-
-[**💻 GitHub Profile**](https://github.com/logicsame) | [**🏆 Kaggle Profile**](https://www.kaggle.com/hakim11)
-
----
-
-*Ready to collaborate on your next AI innovation? Let's build the future together.*
+[GitHub](https://github.com/logicsame) | [Kaggle](https://www.kaggle.com/hakim11) | [Google Scholar](https://scholar.google.com/citations?user=jVyIovcAAAAJ&hl=en)
