@@ -7,7 +7,6 @@ main:
     url: /portfolio/
   - title: "CV"
     url: /cv/
-  - title: "Current Work"
-    url: /current-work/
+  
   - title: "Achievement"
     url: /achievement/
