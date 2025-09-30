@@ -1,26 +1,31 @@
 ---
 title: "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention"
-category: conferences
 collection: publications
-permalink: /publication/2025-05-24-nutriguard
-excerpt: 'This conference paper presents NutriGuard, an innovative system leveraging Large Language Models (LLMs) for comprehensive nutritional assessment aimed at preventing chronic diseases. The system analyzes dietary intake and health data to provide personalized recommendations and risk assessments...'
-date: 2025-05-24 # Or actual conference date if known
-venue: 'IEEE' # Updated venue
-# paperurl: '' # Commented out paperurl as no link provided
-citation: 'Hakim, M. A., Ifty, R. A., Delowar, K. E., Chowdhury, S. H., Rashid, I., & Shakib, M. (2025). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE Conference Proceedings</i>.' # Updated citation venue
+category: conferences
+permalink: /publication/2025-nutriguard
+date: 2025-01-01
+venue: 'IEEE Conference Proceedings'
+paperurl: 'https://doi.org/10.1109/QPAIN66474.2025.11171750'
+citation: 'Hakim, M.A., Ifty, R.A., Delowar, K.E., Chowdhury, S.H., Rashid, I., & Shakib, M. (2025). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE Conference Proceedings</i>. DOI: 10.1109/QPAIN66474.2025.11171750'
 ---
 
-This conference paper presents NutriGuard, an innovative system leveraging Large Language Models (LLMs) for comprehensive nutritional assessment aimed at preventing chronic diseases. The system analyzes dietary intake and health data to provide personalized recommendations and risk assessments, contributing significantly to the fields of Big Data, Artificial Intelligence, and Machine Learning.
+This conference paper presents NutriGuard, an innovative multimodal AI framework integrating optical character recognition (OCR), deep learning, and fine-tuned large language models (LLMs) for personalized nutrition management. The system delivers real-time, context-aware dietary recommendations tailored to users' health profiles, advancing AI-driven preventive healthcare through multilingual, clinically validated frameworks.
 
 **Authors:**
 
-*   **Md Azizul Hakim** (Student, Bangladesh Sweden Polytechnic Institute, Bangladesh)
-*   **Rashedul Arefin Ifty** (Undergraduate Teaching Assistant, International Islamic University Chittagong, Bangladesh) - *Contact Author*
-*   **Khaled Eabne Delowar** (Adjunct Lecturer, International Islamic University Chittagong, Bangladesh)
-*   **Sazzad Hossen Chowdhury** (Student, International Islamic University Chittagong, Bangladesh)
-*   **Imdadur Rashid** (Student, International Islamic University Chittagong, Bangladesh)
-*   **Md Shakib** (Graduate, International Islamic University Chittagong, Bangladesh)
+*   **Md Azizul Hakim** (Lead Author, Bangladesh Sweden Polytechnic Institute, Bangladesh)
+*   **Rashedul Arefin Ifty** (International Islamic University Chittagong, Bangladesh)
+*   **Khaled Eabne Delowar** (International Islamic University Chittagong, Bangladesh)
+*   **Sazzad Hossen Chowdhury** (International Islamic University Chittagong, Bangladesh)
+*   **Imdadur Rashid** (International Islamic University Chittagong, Bangladesh)
+*   **Md Shakib** (International Islamic University Chittagong, Bangladesh)
 
-**Topics:** Big Data, Artificial Intelligence & Machine Learning
+**DOI:** [10.1109/QPAIN66474.2025.11171750](https://doi.org/10.1109/QPAIN66474.2025.11171750)
 
+**Key Contributions:**
+- Hybrid OCR pipeline combining PaddleOCR (English) and Surya (Bengali) with CNN-based fallback
+- Fine-tuned Llama-3.2 model on clinical guidelines for health condition-specific recommendations
+- Multilingual, clinically-validated framework for dietary risk mitigation
+- Modular design permitting adaptation to regional food cultures and emerging research
 
+**Topics:** Big Data, Artificial Intelligence, Machine Learning, Healthcare AI
