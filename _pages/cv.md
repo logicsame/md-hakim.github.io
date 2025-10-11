@@ -10,7 +10,7 @@ classes: wide
   <div class="cv-header">
     <h1>MD Azizul Hakim</h1>
     <div class="cv-subtitle">AI Researcher</div>
-    <div class="cv-tagline"><em>Pioneering biologically-inspired neural architectures for robust artificial intelligence</em></div>
+    <div class="cv-tagline"><em>AI Researcher | Lead Author (Nature Portfolio & IEEE) | Biologically-Inspired Neural Architectures</em></div>
     <div class="cv-contact-info">
       <div class="cv-contact-item">
         <i class="fas fa-envelope"></i>
