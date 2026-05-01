@@ -15,7 +15,7 @@ classes: wide
     </p>
 
     <div class="cv-actions">
-      <a href="/assets/files/cv.pdf" target="_blank" class="cv-btn primary">
+      <a href="/assets/resume.pdf" target="_blank" class="cv-btn primary">
         📄 View CV
       </a>
       <a href="/assets/files/cv.pdf" download class="cv-btn secondary">
