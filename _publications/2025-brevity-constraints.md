@@ -3,7 +3,7 @@ title: "Brevity Constraints Reverse Performance Hierarchies in Language Models"
 collection: publications
 category: preprints
 permalink: /publication/2025-brevity-constraints
-date: 2025-01-01
+date: 2026-04-11
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2604.00025'
 citation: 'Hakim, MD Azizul (2025). &quot;Brevity Constraints Reverse Performance Hierarchies in Language Models.&quot; <i>arXiv preprint</i>. arXiv:2604.00025'
