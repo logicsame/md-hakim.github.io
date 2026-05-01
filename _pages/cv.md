@@ -15,10 +15,10 @@ classes: wide
     </p>
 
     <div class="cv-actions">
-  <a href="/assets/resume.pdf" target="_blank" class="cv-btn primary">
+  <a href="https://github.com/logicsame/md-hakim.github.io/blob/master/assets/resume.pdf" target="_blank" class="cv-btn primary">
     📄 View CV
   </a>
-  <a href="/assets/resume.pdf" download class="cv-btn">
+  <a href="https://github.com/logicsame/md-hakim.github.io/blob/master/assets/resume.pdf" download class="cv-btn">
     ⬇ Download PDF
   </a>
 </div>
