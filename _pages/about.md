@@ -8,7 +8,7 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1 style="color: #2a7ae2; font-size: 2.5em;">MD Azizul Hakim</h1>
-  <h3 style="color: #555;">AI Researcher | LLM Training & Inference Optimization</h3>
+  <h3 style="color: #555;">Dip. Eng. (CST) @BSPI | AI Researcher | LLM Training & Inference Optimization</h3>
   <p><em>Published researcher seeking BSc scholarship opportunities in Computer Science</em></p>
 </div>
 
