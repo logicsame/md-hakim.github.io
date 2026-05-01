@@ -7,30 +7,25 @@ classes: wide
 ---
 
 <div class="cv-page">
-
   <div class="cv-card">
     <h1>Curriculum Vitae</h1>
-    <p class="cv-subtext">
-      Download or preview my latest academic CV (updated May 2026)
-    </p>
+    <p class="cv-subtext">My latest academic CV (updated May 2026)</p>
 
-  <div class="cv-actions">
-  <a href="https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf" 
-     target="_blank" class="cv-btn primary">
-    📄 View CV
-  </a>
-  <a href="https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf" 
-     download="MD_Hakim_CV.pdf" class="cv-btn">
-    ⬇ Download PDF
-  </a>
-</div>
+    <div class="cv-actions">
+      <a href="https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf" 
+         download="MD_Hakim_CV.pdf" class="cv-btn">
+        ⬇ Download PDF
+      </a>
+    </div>
+  </div>
 
-<div class="cv-preview">
-  <iframe 
-    src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf&embedded=true">
-  </iframe>
-</div>
-
+  <!-- PDF shown directly on page -->
+  <div class="cv-preview">
+    <iframe 
+      src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf&embedded=true"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 <style>
