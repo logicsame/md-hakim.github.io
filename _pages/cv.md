@@ -14,17 +14,21 @@ classes: wide
       Download or preview my latest academic CV (updated May 2026)
     </p>
 
-    <div class="cv-actions">
-  <a href="https://github.com/logicsame/md-hakim.github.io/blob/master/assets/resume.pdf" target="_blank" class="cv-btn primary">
+  <div class="cv-actions">
+  <a href="https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf" 
+     target="_blank" class="cv-btn primary">
     📄 View CV
   </a>
-  <a href="https://github.com/logicsame/md-hakim.github.io/blob/master/assets/resume.pdf" download class="cv-btn">
+  <a href="https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf" 
+     download="MD_Hakim_CV.pdf" class="cv-btn">
     ⬇ Download PDF
   </a>
 </div>
 
 <div class="cv-preview">
-  <iframe src="/assets/resume.pdf"></iframe>
+  <iframe 
+    src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/logicsame/md-hakim.github.io/master/assets/resume.pdf&embedded=true">
+  </iframe>
 </div>
 
 </div>
