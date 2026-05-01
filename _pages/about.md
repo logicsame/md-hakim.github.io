@@ -1,6 +1,5 @@
 ---
 permalink: /
-
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,40 +8,29 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1 style="color: #2a7ae2; font-size: 2.5em;">MD Azizul Hakim</h1>
-  <h3 style="color: #555;">ML-DL-AI Researcher | ML-DL-AI Engineer</h3>
+  <h3 style="color: #555;">ML/DL/AI Researcher | ML/DL/AI Engineer</h3>
   <p><em>Transforming complex AI challenges into practical, efficient solutions</em></p>
 </div>
 
 ## Bio
 
-I am a researcher specializing in biologically-inspired artificial intelligence and robust neural network architectures. My work bridges neuroscience principles with machine learning, focusing on developing systems that exhibit the stability and resilience characteristic of biological intelligence.
-I approach research with commitment to both theoretical rigor and practical impact, developing methods that are grounded in biological principles while addressing fundamental limitations in current artificial neural networks.
+I recently completed my 4-year Diploma in Computer Science & Technology at **Bangladesh Sweden Polytechnic Institute (BSPI)**. I didn't wait to graduate to start contributing to science — in my **7th semester**, I published a research paper in **Scientific Reports (Nature Portfolio)** as Lead Author, followed by **3 IEEE conference papers** as Lead Author, all focused on Artificial Intelligence.
 
-## Research Interests
-My research program centers on creating artificial intelligence systems that embody principles of biological robustness and adaptability:
+During my **8th semester internship**, I worked as an **AI Researcher at Universe Soft Tech**, where I applied my research skills in a real-world industry setting.
 
-### Biologically-Inspired Neural Architectures
-Developing neural network layers and systems that incorporate homeostatic regulation, self-repair mechanisms, and multi-scale temporal dynamics inspired by biological nervous systems.
+I am currently seeking **BSc opportunities with scholarships** in Computer Science to continue my academic and research journey at a higher level. If you are a professor, researcher, or institution looking for a motivated and already-published researcher — feel free to [connect](https://www.linkedin.com/in/md-azizul-hakim-0b2635359/) or message me!
 
-### Robust and Resilient AI Systems
-Addressing the brittleness of artificial neural networks through bio-inspired stability mechanisms that enable consistent performance under perturbations, distribution shifts, and adverse conditions.
-
-### Multi-Scale Temporal Coordination
-Investigating how coordination across multiple temporal scales—from milliseconds to hours—can enhance the efficiency, stability, and recovery capabilities of artificial neural systems.
-
-### Neuromorphic and Brain-Inspired Computing
-Translating principles from neuroscience and evolutionary biology into computational frameworks that advance the capabilities of artificial intelligence.
-
-### General AI Agent Systems
-Building integrated platforms combining LLMs, computer vision, and researching multi-agent collaboration, developing cross-domain knowledge transfer, and creating benchmarks for general AI capabilities.
-
-### Combined Technology Applications
-I am actively pioneering applications that merge these research areas, focusing on healthcare diagnostics, intelligent manufacturing, personalized education, and environmental monitoring.
-
-
-Please click here for my [cv]()
+Please click here for my [CV](/cv/)
 
 For detailed insights into my projects and practical implementations, please explore the [Portfolio](/portfolio/) section of this site.
+
+## Research Interests
+
+- **Large Language Models (LLMs)** — reasoning, alignment, and capability evaluation
+- **Test-Time Compute Efficiency in LLMs** — scaling inference-time computation for improved performance
+- **Reinforcement Learning** — training strategies and policy optimization for AI agents
+- **Training Quality and Deployment Behaviour of LLMs** — understanding how training decisions affect real-world model behaviour
+- **Inference Optimization of LLMs** — reducing latency and compute cost without sacrificing quality
 
 
 
