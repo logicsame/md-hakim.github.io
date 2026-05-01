@@ -15,18 +15,17 @@ classes: wide
     </p>
 
     <div class="cv-actions">
-      <a href="/assets/resume.pdf" target="_blank" class="rcv-btn primary">
-        📄 View CV
-      </a>
-      <a href="/assets/resume.pdf" download class="rcv-btn">
-        ⬇ Download PDF
-      </a>
-    </div>
-  </div>
+  <a href="/assets/resume.pdf" target="_blank" class="cv-btn primary">
+    📄 View CV
+  </a>
+  <a href="/assets/resume.pdf" download class="cv-btn">
+    ⬇ Download PDF
+  </a>
+</div>
 
-  <div class="cv-preview">
-    <iframe src="/assets/files/cv.pdf"></iframe>
-  </div>
+<div class="cv-preview">
+  <iframe src="/assets/resume.pdf"></iframe>
+</div>
 
 </div>
 
