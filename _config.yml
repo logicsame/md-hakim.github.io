@@ -22,12 +22,14 @@ repository               : "logicsame/md-hakim.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
+  author:
+  # Biographic information
   name             : "MD Azizul Hakim"
   avatar           : "Profile.jpg"
   pronouns         : "He/Him" 
-  bio              : "Dip. Eng. (CST) @BSPI | AI Researcher"
+  bio              : "@NeurIPS Sole Author | Dip. Eng. (CST) @BSPI | AI Researcher"
   location         : "Earth"
-  employer         : "Bangladesh Sweden Polytechnic Institute"
+  employer         : "Bangladesh Sweden Polytechnic Ins"
   education        : "Diploma in Computer Science and Engineering"
   email            : "azizulhakim8291@gmail.com" 
   
