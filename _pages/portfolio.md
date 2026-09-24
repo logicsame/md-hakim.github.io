@@ -5,11 +5,36 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-My research develops biologically-inspired frameworks that enhance the robustness and adaptability of artificial neural networks. I have demonstrated the practical relevance of these approaches across diverse domains, including molecular property prediction, biomedical classification, and graph-structured data analysis. These applications are enabled by architectures that integrate homeostatic regulation, multi-scale temporal coordination, and self-repair mechanisms, thereby achieving stable, resilient, and biologically-faithful artificial intelligence systems that maintain reliable performance under perturbation and environmental variability.
+My research investigates the mechanisms that govern efficiency and reliability in artificial intelligence systems — from how training quality shapes test-time reasoning in large language models, to how biologically-inspired architectures achieve robustness under perturbation. My most recent work, accepted as a sole-authored poster at NeurIPS 2026, establishes training quality as the primary determinant of reasoning efficiency across 50 language models. Earlier work extends this focus on resilience and adaptability into molecular property prediction, biomedical classification, and graph-structured data analysis, through architectures integrating homeostatic regulation, multi-scale temporal coordination, and self-repair mechanisms. Across both directions, my aim is the same: building AI systems that behave predictably, efficiently, and reliably under real-world conditions.
 
 ---
 
 ## Research Implementation
+
+### Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
+
+<div style="margin: 20px 0;">
+  <img src="https://logicsame.github.io/md-hakim.github.io//images/biological_neuron.gif" alt="Test-Time Reasoning Efficiency Visualization" style="width: 100%; height: 200; border-radius: 8px; display: block;">
+</div>
+
+**Accepted:** NeurIPS 2026, Main Track — Poster (Sole Author)
+
+**Research Problem:** Scaling inference-time computation is widely assumed to improve reasoning in large language models, but it is unclear when additional inference tokens are actually beneficial, redundant, or actively harmful to accuracy.
+
+**Key Findings:**
+- Evaluated 50 language models (0.5B–685B parameters) across six reasoning benchmarks, totalling over 67,000 assessments
+- Standard models show near-universal accuracy convergence at ~1,000 tokens, regardless of architecture, parameter count, or decoding strategy
+- Causal intervention experiments show constraining generation length improves reasoning accuracy by 15.4 percentage points — identifying over-generation, not capacity exhaustion, as the primary efficiency bottleneck
+- Among 19 reasoning-specialised models, training methodology alone produces a 5.0–18.8× efficiency gap at matched parameter scales — exceeding gains from ten-fold parameter increases
+- Introduces a mechanistic framework isolating two orthogonal dimensions of training quality — quality control and decomposition efficiency — that independently predict inference-time efficiency
+
+**Technical Implementation:** Large-scale model evaluation pipeline, causal intervention experiments, mechanistic profiling across model families
+
+**Author:** MD Azizul Hakim (Sole Author)
+
+[View Repository](https://github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning) | [Read Paper](/publication/2026-training-quality-efficiency-boundaries)
+
+---
 
 ### Biologically Inspired Neural Network with Homeostatic Regulation
 
