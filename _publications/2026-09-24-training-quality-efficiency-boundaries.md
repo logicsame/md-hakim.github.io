@@ -1,7 +1,7 @@
 ---
 title: "Training Quality Determines Efficiency Boundaries in Test-Time Reasoning"
 collection: publications
-category: preprints
+category: toptierconference
 permalink: /publication/2026-training-quality-efficiency-boundaries
 excerpt: 'This paper establishes training quality as the primary determinant of reasoning efficiency in large language models, evaluating 50 models across 67,000+ assessments to show when additional inference tokens help, are redundant, or actively harm accuracy.'
 date: 2026-09-24
@@ -18,7 +18,7 @@ Graduate-level evaluation reveals that arithmetic benchmark performance does not
 
 **Authors:**
 
-*   **MD Azizul Hakim** (Sole Author, Independent Researcher, Bangladesh Sweden Polytechnic Institute, Bangladesh)
+*   **MD Azizul Hakim** (Sole Author, Bangladesh Sweden Polytechnic Institute, Bangladesh)
 
 **Venue:** Neural Information Processing Systems (NeurIPS 2026) — Accepted Poster
 
