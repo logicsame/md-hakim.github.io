@@ -13,9 +13,6 @@ My research investigates the mechanisms that govern efficiency and reliability i
 
 ### Training Quality Determines Efficiency Boundaries in Test-Time Reasoning
 
-<div style="margin: 20px 0;">
-  <img src="https://logicsame.github.io/md-hakim.github.io//images/biological_neuron.gif" alt="Test-Time Reasoning Efficiency Visualization" style="width: 100%; height: 200; border-radius: 8px; display: block;">
-</div>
 
 **Accepted:** NeurIPS 2026, Main Track — Poster (Sole Author)
 
