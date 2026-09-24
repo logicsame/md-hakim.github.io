@@ -19,6 +19,15 @@ author_profile: true
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.toptier-item {
+  background-color: #fff8e6;
+  border-left: 4px solid #e67e22;
+}
+
+.toptier-item h3 {
+  color: #b9560f;
+}
+
 .journal-item {
   border-left: 4px solid #2a7ae2;
 }
@@ -67,6 +76,9 @@ author_profile: true
   margin-top: 0.5rem;
 }
 
+.badge-neurips { background-color: #e67e22; font-weight: 600; }
+.badge-soleauthor { background-color: #d35400; }
+.badge-reasoning { background-color: #c0392b; }
 .badge-nature { background-color: #2a7ae2; }
 .badge-homeostatic { background-color: #27ae60; }
 .badge-bioinspired { background-color: #8e44ad; }
@@ -135,6 +147,22 @@ author_profile: true
 </style>
 
 ## Research Publications
+
+### Top-Tier Conferences
+
+<div class="achievement-item toptier-item">
+  <h3>Training Quality Determines Efficiency Boundaries in Test-Time Reasoning</h3>
+  <p><strong>Author:</strong> Hakim, M.A. (sole author)</p>
+  <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS 2026) — Accepted Poster, Main Track</p>
+  <p><strong>Year:</strong> 2026</p>
+  <p>Established training quality as the primary determinant of reasoning efficiency in large language models, evaluating 50 language models (0.5B–685B parameters) across six reasoning benchmarks and over 67,000 assessments. Causal intervention experiments showed constraining generation length improves reasoning accuracy by 15.4 percentage points, identifying over-generation — not capacity exhaustion — as the primary efficiency bottleneck. Among 19 reasoning-specialised models, training methodology alone produced a 5.0–18.8× efficiency gap at matched parameter scales, exceeding gains from ten-fold parameter increases. Sole-author publication accepted at one of the most competitive venues in machine learning.</p>
+  <div>
+    <span class="badge badge-neurips">NeurIPS 2026</span>
+    <span class="badge badge-soleauthor">Sole Author</span>
+    <span class="badge badge-reasoning">Test-Time Reasoning</span>
+    <span class="badge badge-llm">LLM Efficiency</span>
+  </div>
+</div>
 
 ### Journal Articles
 
@@ -236,8 +264,12 @@ author_profile: true
 
 <div class="stats-grid">
   <div class="stat-box">
-    <div class="stat-number">4</div>
+    <div class="stat-number">5</div>
     <div class="stat-label">Total Publications</div>
+  </div>
+  <div class="stat-box">
+    <div class="stat-number">1</div>
+    <div class="stat-label">Top-Tier Conference (NeurIPS)</div>
   </div>
   <div class="stat-box">
     <div class="stat-number">1</div>
@@ -248,7 +280,7 @@ author_profile: true
     <div class="stat-label">IEEE Conferences</div>
   </div>
   <div class="stat-box">
-    <div class="stat-number">4</div>
-    <div class="stat-label">Lead Author Papers</div>
+    <div class="stat-number">5</div>
+    <div class="stat-label">Lead/Sole Author Papers</div>
   </div>
 </div>
