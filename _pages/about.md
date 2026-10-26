@@ -2,12 +2,14 @@
 permalink: /
 layout: hk-home
 title: "MD Azizul Hakim"
-excerpt: "Independent AI researcher in Dhaka, Bangladesh, studying test-time reasoning efficiency and training quality in large language models. Sole author of a NeurIPS 2026 paper."
+excerpt: "AI researcher in Dhaka, Bangladesh, working on reinforcement learning, looped language models, and training and inference efficiency. Sole author of a NeurIPS 2026 paper."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-My research asks how the way a language model is trained shapes the way it spends compute at inference time: when extra reasoning tokens help, when they are wasted, and when they hurt accuracy. My sole-authored NeurIPS 2026 paper shows across 50 models that training quality, more than parameter count or token budget, sets these efficiency boundaries. I follow that thread into reinforcement-learning rewards that teach models when to stop.
+I work on how language models spend compute when they reason. My sole-authored NeurIPS 2026 paper shows, across 50 models, that training quality rather than parameter count or token budget decides when extra reasoning tokens help and when they only add cost.
 
-I work independently, without a lab or funding, and recently completed a four-year Diploma in Computer Science &amp; Technology at Bangladesh Sweden Polytechnic Institute. I am looking for a fully funded BSc in Computer Science where I can keep working on LLM reasoning, RL post-training and efficient inference. If your group works on these, I would be glad to hear from you.
+I am now building on that in two directions. With reinforcement learning, I design rewards that teach reasoning models to stop once they have the answer. With looped language models, which reuse the same layers several times, I study whether a model should think deeper or longer, and how to let it choose the number of loops for each input.
+
+I recently completed a four-year Diploma in Computer Science &amp; Technology at Bangladesh Sweden Polytechnic Institute, and I am looking for a fully funded BSc in Computer Science to continue this research. If your group works on these questions, I would be glad to hear from you.

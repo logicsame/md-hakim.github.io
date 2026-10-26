@@ -19,4 +19,3 @@ This preprint investigates how imposing brevity constraints on language model ou
 - Demonstrated that brevity constraints can reverse conventional performance rankings among LLMs
 - Provided empirical evidence challenging assumptions about model size and output quality
 - Advanced understanding of inference-time behaviour and test-time compute efficiency in LLMs
-- Sole-author publication demonstrating independent research capability

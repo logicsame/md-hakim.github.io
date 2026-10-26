@@ -19,4 +19,3 @@ This preprint introduces multi-scale temporal homeostasis as a mechanism for enh
 - Introduced multi-scale temporal homeostasis as a bio-inspired mechanism for neural network stability
 - Demonstrated improved efficiency and robustness across benchmark evaluations
 - Extended the theoretical foundation for biologically-faithful AI architectures
-- Sole-author publication demonstrating independent research capability

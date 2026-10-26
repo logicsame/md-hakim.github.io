@@ -56,25 +56,17 @@ layout: hk
       <ol class="papers">
         {% for p in site.data.papers %}{% if p.group == "reviewed" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
       </ol>
-      <h3 class="sub">Under review and preprints</h3>
+      <h3 class="sub">Preprints</h3>
       <ol class="papers">
         {% for p in site.data.papers %}{% if p.group == "preprint" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
       </ol>
     </section>
 
-    <section id="experience" class="block" aria-labelledby="exp-title">
-      <h2 id="exp-title">Experience and education</h2>
+    <section id="education" class="block" aria-labelledby="edu-title">
+      <h2 id="edu-title">Education</h2>
       <ul class="rows">
         <li>
-          <span class="rows__when">2024 – now</span>
-          <div><strong>Independent researcher</strong><br><span class="muted">Self-directed work on LLM reasoning efficiency and training quality, without a lab or funding.</span></div>
-        </li>
-        <li>
-          <span class="rows__when">Dec 2025 – Feb 2026</span>
-          <div><strong>AI Researcher Intern</strong>, Universe Soft Tech</div>
-        </li>
-        <li>
-          <span class="rows__when">Jul 2021 – Feb 2026</span>
+          <span class="rows__when">2021 – 2026</span>
           <div><strong>Diploma-in-Engineering, Computer Science &amp; Technology</strong><br><span class="muted">Bangladesh Sweden Polytechnic Institute. CGPA 3.40 / 4.00.</span></div>
         </li>
       </ul>
@@ -99,16 +91,6 @@ layout: hk
           <span class="rows__when">Reviewer</span>
           <div>Frontiers in Artificial Intelligence, Frontiers in Computational Neuroscience, Frontiers in Nutrition</div>
         </li>
-      </ul>
-    </section>
-
-    <section id="projects" class="block" aria-labelledby="projects-title">
-      <h2 id="projects-title">Projects</h2>
-      <ul class="projects">
-        <li><a href="https://github.com/logicsame/IIUC-Competition">FounderAI</a>: CMO, CPO, CTO and COO agents for early-stage founders, built with CrewAI and LangGraph. Placed in the IIUC competition.</li>
-        <li><a href="https://github.com/logicsame/health-recommendation-system">Food-label health advisor</a>: OCR plus retrieval over dietary guidelines to give condition-aware recommendations.</li>
-        <li><a href="https://github.com/logicsame/ai-agent-based-trip-guider-main-file">Trip planner</a>: FastAPI service with hybrid recommendations and live weather and pricing agents.</li>
-        <li><a href="https://github.com/logicsame/train-pegasus-model-on-bengali-text-summarization-using-mlops">Bengali summarization</a>: Pegasus fine-tuned for Bengali, with a full MLOps training and serving pipeline.</li>
       </ul>
     </section>
 

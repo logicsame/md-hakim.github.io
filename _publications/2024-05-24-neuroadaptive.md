@@ -21,4 +21,3 @@ This conference paper introduces Neuroadaptive Intelligence, a novel approach in
 - Developed self-repairing neural layer architecture with adaptive learning mechanisms
 - Demonstrated neuroadaptive intelligence principles in molecular graph classification
 - Advanced biologically-inspired AI methodologies for scientific computing applications
-- Sole-author publication demonstrating independent research capability

@@ -81,16 +81,6 @@
   links:
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171860" }
 
-- id: termination
-  group: preprint
-  title: "Termination Calibration Recovers Answers That Reasoning Models Compute but Never Express"
-  authors: ["MD Azizul Hakim"]
-  sole: true
-  venue: "Under review"
-  venue_full: "Under review"
-  tldr: "A reward that teaches reasoning models when to stop, recovering correct answers they reach internally but cut off before writing out."
-  links: []
-
 - id: brevity
   group: preprint
   title: "Brevity Constraints Reverse Performance Hierarchies in Language Models"

@@ -4,25 +4,27 @@
   </a>
   <div class="profile__id">
     <p class="profile__name"><a href="{{ '/' | relative_url }}">MD Azizul Hakim</a></p>
-    <p class="profile__role">Independent AI researcher<br>Dhaka, Bangladesh</p>
+    <ul class="profile__tags" aria-label="Research areas">
+      <li>AI Researcher</li><li>Reinforcement Learning</li><li>Looped Language Models</li><li>Training &amp; Inference Efficiency</li>
+    </ul>
+    <p class="profile__place">Dhaka, Bangladesh</p>
   </div>
   <p class="profile__status"><span class="dot" aria-hidden="true"></span>Looking for a fully funded BSc in Computer Science</p>
   <ul class="profile__links">
-    <li><a href="mailto:{{ site.author.email }}">Email</a></li>
-    <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
-    <li><a href="https://github.com/logicsame">GitHub</a></li>
-    <li><a href="https://huggingface.co/Md-Hakim">Hugging Face</a></li>
-    <li><a href="https://www.kaggle.com/hakim11">Kaggle</a></li>
-    <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/">LinkedIn</a></li>
-    <li><a href="{{ '/assets/resume.pdf' | relative_url }}">CV (PDF)</a></li>
+    <li><a href="mailto:{{ site.author.email }}" title="Email">{% include hk-icon.html name="mail" %}<span>Email</span></a></li>
+    <li><a href="{{ site.author.googlescholar }}" title="Google Scholar">{% include hk-icon.html name="scholar" %}<span>Google Scholar</span></a></li>
+    <li><a href="https://github.com/logicsame" title="GitHub">{% include hk-icon.html name="github" %}<span>GitHub</span></a></li>
+    <li><a href="https://huggingface.co/Md-Hakim" title="Hugging Face">{% include hk-icon.html name="hf" %}<span>Hugging Face</span></a></li>
+    <li><a href="https://www.kaggle.com/hakim11" title="Kaggle">{% include hk-icon.html name="kaggle" %}<span>Kaggle</span></a></li>
+    <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/" title="LinkedIn">{% include hk-icon.html name="linkedin" %}<span>LinkedIn</span></a></li>
+    <li><a href="{{ '/assets/resume.pdf' | relative_url }}" title="CV (PDF)">{% include hk-icon.html name="cv" %}<span>CV</span></a></li>
   </ul>
   {% if include.nav %}
   <nav class="profile__nav" aria-label="Sections">
     <a href="#news">News</a>
     <a href="#papers">Papers</a>
-    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
     <a href="#honors">Honors &amp; service</a>
-    <a href="#projects">Projects</a>
   </nav>
   {% endif %}
 </aside>

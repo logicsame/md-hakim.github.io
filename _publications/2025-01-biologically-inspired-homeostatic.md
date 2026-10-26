@@ -16,7 +16,7 @@ The research validates the approach across critical biomedical datasets includin
 
 **Authors:**
 
-*   **MD Azizul Hakim** (Lead Author, Independent Researcher, Bangladesh Sweden Polytechnic Institute, Bangladesh)
+*   **MD Azizul Hakim** (Lead Author, Bangladesh Sweden Polytechnic Institute, Bangladesh)
 *   **Mohammad Ifazul Alam** (Co-Author, Bangladesh Sweden Polytechnic Institute, Bangladesh)
 
 **Journal:** Scientific Reports (Nature Portfolio)
