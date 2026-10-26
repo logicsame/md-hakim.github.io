@@ -1,176 +1,100 @@
 ---
 layout: hk
 ---
-<header class="hero">
-  <nav class="topnav" aria-label="Main">
-    <a class="topnav__home" href="{{ '/' | relative_url }}">Hakim</a>
-    <div class="topnav__links">
-      <a href="#research">Research</a>
-      <a href="#news">News</a>
-      <a href="#publications">Publications</a>
-      <a href="#background">Background</a>
-      <a href="{{ '/assets/resume.pdf' | relative_url }}">CV</a>
-    </div>
-  </nav>
+{% include hk-header.html %}
 
-  <div class="hero__inner">
-    <div class="hero__text">
-      <p class="hero__flag"><span class="hero__dot" aria-hidden="true"></span>NeurIPS 2026 Sole Author</p>
-      <h1 class="hero__name">MD Azizul Hakim</h1>
-      <p class="hero__sub">AI Researcher</p>
-      <ul class="hero__areas" aria-label="Research areas"><li>Reinforcement Learning</li><li>Looped Language Models</li><li>Training &amp; Inference Efficiency</li></ul>
-      <p class="hero__lead">I study how language models spend compute when they reason, and how to train them to think exactly as long as a problem needs.</p>
-      <div class="hero__actions">
-        <a class="btn btn--light" href="mailto:{{ site.author.email }}">{% include hk-icon.html name="mail" %}Email me</a>
-        <a class="btn btn--ghost" href="{{ '/assets/resume.pdf' | relative_url }}">{% include hk-icon.html name="cv" %}Download CV</a>
-      </div>
-      <ul class="hero__social" aria-label="Profiles">
-        <li><a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar">{% include hk-icon.html name="scholar" %}</a></li>
-        <li><a href="https://github.com/logicsame" aria-label="GitHub" title="GitHub">{% include hk-icon.html name="github" %}</a></li>
-        <li><a href="https://huggingface.co/Md-Hakim" aria-label="Hugging Face" title="Hugging Face">{% include hk-icon.html name="hf" %}</a></li>
-        <li><a href="https://www.kaggle.com/hakim11" aria-label="Kaggle" title="Kaggle">{% include hk-icon.html name="kaggle" %}</a></li>
-        <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/" aria-label="LinkedIn" title="LinkedIn">{% include hk-icon.html name="linkedin" %}</a></li>
-      </ul>
-    </div>
+<main id="main" class="page">
 
-    <div class="hero__disc">
-      <svg class="rings" viewBox="0 0 400 400" aria-hidden="true">
-        <circle cx="200" cy="200" r="150"/><circle cx="200" cy="200" r="172"/><circle cx="200" cy="200" r="194"/>
-      </svg>
-      <img src="{{ '/images/hakim-portrait.jpg' | relative_url }}" alt="Portrait of MD Azizul Hakim" width="260" height="260">
-    </div>
-  </div>
-</header>
-
-<main id="main">
-
-  <section id="research" class="sec">
-    <div class="wrap">
-      <h2 class="sec__title">Research</h2>
-      <div class="intro">
-        {{ content }}
-      </div>
-
-      <ul class="threads">
-        <li class="thread">
-          <svg class="thread__art" viewBox="0 0 120 64" aria-hidden="true">
-            <path class="a-axis" d="M8 56H112M8 56V8"/>
-            <path class="a-line" d="M8 52C26 50 34 34 46 22C54 14 60 12 68 11.5L112 11"/>
-            <circle class="a-dot" cx="68" cy="11.5" r="4"/>
-          </svg>
-          <h3>Training quality and test-time reasoning</h3>
-          <p>When do extra reasoning tokens help, waste compute, or hurt accuracy? Across 50 models from 0.5B to 685B parameters, training methodology sets the boundary, more than size or token budget.</p>
-          <a class="thread__link" href="#neurips26">NeurIPS 2026 paper</a>
-        </li>
-        <li class="thread">
-          <svg class="thread__art" viewBox="0 0 120 64" aria-hidden="true">
-            <path class="a-axis" d="M8 32H112"/>
-            <g class="a-tokens"><rect x="8" y="26" width="10" height="12" rx="2"/><rect x="22" y="26" width="10" height="12" rx="2"/><rect x="36" y="26" width="10" height="12" rx="2"/><rect x="50" y="26" width="10" height="12" rx="2"/><rect x="64" y="26" width="10" height="12" rx="2"/></g>
-            <rect class="a-ghost" x="78" y="26" width="10" height="12" rx="2"/><rect class="a-ghost" x="92" y="26" width="10" height="12" rx="2"/>
-            <path class="a-stop" d="M76 14V50"/><circle class="a-dot" cx="76" cy="14" r="4"/>
-          </svg>
-          <h3>Reinforcement learning for reasoning</h3>
-          <p>Reward signals for RL post-training that teach reasoning models to stop once they have the answer, instead of over-generating until the budget runs out.</p>
-        </li>
-        <li class="thread">
-          <svg class="thread__art" viewBox="0 0 120 64" aria-hidden="true">
-            <rect class="a-block" x="40" y="18" width="40" height="28" rx="5"/>
-            <path class="a-line" d="M80 32C100 32 104 8 60 8C16 8 20 32 40 32"/>
-            <path class="a-axis" d="M8 32H40M80 32H112"/>
-            <circle class="a-dot" cx="60" cy="8" r="4"/>
-          </svg>
-          <h3>Looped language models</h3>
-          <p>Models that reuse the same layers several times. Should a model think deeper or longer, and can it choose its own number of loops for each input?</p>
-        </li>
+  <section class="head" aria-label="Introduction">
+    <img class="head__photo" src="{{ '/images/hakim-portrait.jpg' | relative_url }}" alt="Portrait of MD Azizul Hakim" width="260" height="260">
+    <div class="head__id">
+      <h1 class="head__name">MD Azizul Hakim</h1>
+      <p class="head__label">NeurIPS 2026 Sole Author</p>
+      <p class="head__sub"><span class="head__role">AI Researcher</span>Reinforcement Learning · Looped Language Models · Training &amp; Inference Efficiency</p>
+      <ul class="head__links" aria-label="Profiles">
+        <li><a href="mailto:{{ site.author.email }}">{% include hk-icon.html name="mail" %}Email</a></li>
+        <li><a href="{{ site.author.googlescholar }}">{% include hk-icon.html name="scholar" %}Scholar</a></li>
+        <li><a href="https://github.com/logicsame">{% include hk-icon.html name="github" %}GitHub</a></li>
+        <li><a href="https://huggingface.co/Md-Hakim">{% include hk-icon.html name="hf" %}Hugging Face</a></li>
+        <li><a href="https://www.kaggle.com/hakim11">{% include hk-icon.html name="kaggle" %}Kaggle</a></li>
+        <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/">{% include hk-icon.html name="linkedin" %}LinkedIn</a></li>
       </ul>
     </div>
   </section>
 
-  <section id="news" class="sec sec--tint">
-    <div class="wrap">
-      <h2 class="sec__title">News</h2>
-      <ol class="timeline">
-        {% for n in site.data.news %}
-        <li class="timeline__item{% if n.highlight %} is-major{% endif %}">
-          <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.month_only %}{{ n.date | date: "%b %Y" }}{% else %}{{ n.date | date: "%b %-d, %Y" }}{% endif %}</time>
-          <p>{{ n.text }}</p>
-        </li>
+  <section class="about" aria-label="About">
+    {{ content }}
+  </section>
+
+  <section id="news" class="block">
+    <h2>News</h2>
+    {% assign news_top = site.data.news | slice: 0, 5 %}{% assign news_rest = site.data.news | slice: 5, 100 %}
+    <ul class="news">
+      {% for n in news_top %}<li{% if n.highlight %} class="is-major"{% endif %}><time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.month_only %}{{ n.date | date: "%b %Y" }}{% else %}{{ n.date | date: "%b %-d, %Y" }}{% endif %}</time><p>{{ n.text }}</p></li>
+      {% endfor %}
+    </ul>
+    {% if news_rest.size > 0 %}
+    <details class="more">
+      <summary>Earlier news</summary>
+      <ul class="news">
+        {% for n in news_rest %}<li><time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.month_only %}{{ n.date | date: "%b %Y" }}{% else %}{{ n.date | date: "%b %-d, %Y" }}{% endif %}</time><p>{{ n.text }}</p></li>
         {% endfor %}
-      </ol>
-    </div>
+      </ul>
+    </details>
+    {% endif %}
   </section>
 
-  <section id="publications" class="sec">
-    <div class="wrap">
-      <div class="sec__head">
-        <h2 class="sec__title">Publications</h2>
-        <p class="sec__aside">First author on every paper. <a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
-      </div>
+  <section id="publications" class="block">
+    <h2>Publications</h2>
 
-      {% assign f = site.data.papers | where: "feature", true | first %}
-      <article class="feature" id="{{ f.id }}">
-        <div class="feature__body">
-          <p class="feature__venue"><span class="hero__dot" aria-hidden="true"></span>{{ f.venue_line }} · Sole author</p>
-          <h3 class="feature__title"><a href="{{ '/publication/2026-training-quality-efficiency-boundaries' | relative_url }}">{{ f.title }}</a></h3>
-          <p class="feature__tldr">{{ f.tldr }}</p>
-          <p class="links">{% for l in f.links %}{% assign u = l.url %}{% unless u contains "://" %}{% assign u = u | relative_url %}{% endunless %}<a href="{{ u }}">{{ l.label }}</a>{% endfor %}<button type="button" class="cite" data-target="bib-{{ f.id }}" aria-expanded="false">BibTeX</button></p>
-          <pre class="bib" id="bib-{{ f.id }}" hidden>{{ f.bibtex | strip | xml_escape }}</pre>
-        </div>
-        <dl class="feature__facts">
-          <div><dt>50</dt><dd>language models evaluated</dd></div>
-          <div><dt>67k</dt><dd>and more assessments across six benchmarks</dd></div>
-          <div><dt>15.4</dt><dd>accuracy points gained by capping generation length</dd></div>
-        </dl>
-      </article>
+    <dl class="tally">
+      <div><dt>1</dt><dd>NeurIPS<span>sole author</span></dd></div>
+      <div><dt>2</dt><dd>Scientific Reports<span>Nature Portfolio</span></dd></div>
+      <div><dt>3</dt><dd>IEEE QPAIN<span>conference papers</span></dd></div>
+      <div><dt>2</dt><dd>arXiv<span>preprints</span></dd></div>
+    </dl>
+    <p class="note">First author on every paper. Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-      <div class="filters" role="group" aria-label="Filter publications">
-        <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
-        <button type="button" class="filter" data-filter="llm" aria-pressed="false">LLM reasoning</button>
-        <button type="button" class="filter" data-filter="bio" aria-pressed="false">Bio-inspired networks</button>
-        <button type="button" class="filter" data-filter="applied" aria-pressed="false">Robustness and applications</button>
-      </div>
-
-      <ol class="pubs">
-        {% for p in site.data.papers %}{% unless p.feature %}{% include hk-paper-item.html p=p %}{% endunless %}{% endfor %}
-      </ol>
+    <div class="filters" role="group" aria-label="Filter publications">
+      <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="filter" data-filter="llm" aria-pressed="false">LLM reasoning</button>
+      <button type="button" class="filter" data-filter="bio" aria-pressed="false">Bio-inspired networks</button>
+      <button type="button" class="filter" data-filter="applied" aria-pressed="false">Robustness &amp; applications</button>
     </div>
+
+    <ol class="pubs">
+      {% for p in site.data.papers %}{% include hk-paper-item.html p=p %}{% endfor %}
+    </ol>
   </section>
 
-  <section id="background" class="sec sec--tint">
-    <div class="wrap">
-      <h2 class="sec__title">Background</h2>
-      <div class="cols">
-        <div>
-          <h3 class="col__title">Education</h3>
-          <ul class="facts">
-            <li><span class="facts__when">2021–26</span><strong>Diploma-in-Engineering, Computer Science &amp; Technology</strong><span class="facts__note">Bangladesh Sweden Polytechnic Institute · CGPA 3.40 / 4.00</span></li>
-            <li><span class="facts__when">Next</span><strong>Seeking a fully funded BSc in Computer Science</strong><span class="facts__note">To continue research on LLM reasoning, RL post-training and efficient inference</span></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="col__title">Honors</h3>
-          <ul class="facts">
-            <li><span class="facts__when">2026</span><strong>NeurIPS 2026 award</strong><span class="facts__note">Complimentary registration and hotel stay in Sydney</span></li>
-            <li><span class="facts__when">2025–26</span><strong>Article processing charge waivers</strong><span class="facts__note">Nature Portfolio, Scientific Reports</span></li>
-            <li><span class="facts__when">2025</span><strong>2nd runner-up, AI Agent Development Competition</strong><span class="facts__note">IIUC, 200+ teams nationwide</span></li>
-            <li><span class="facts__when">2024</span><strong>Kaggle Notebooks Master</strong><span class="facts__note"><a href="https://www.kaggle.com/hakim11">kaggle.com/hakim11</a></span></li>
-          </ul>
-        </div>
+  <section id="background" class="block">
+    <h2>Background</h2>
+    <div class="cols">
+      <div>
+        <h3>Education</h3>
+        <ul class="facts">
+          <li><span class="facts__when">2021–26</span><div><strong>Diploma-in-Engineering, Computer Science &amp; Technology</strong><br><span class="muted">Bangladesh Sweden Polytechnic Institute. CGPA 3.40 / 4.00.</span></div></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Honors</h3>
+        <ul class="facts">
+          <li><span class="facts__when">2026</span><div><strong>NeurIPS 2026 award</strong><br><span class="muted">Complimentary registration and hotel stay in Sydney.</span></div></li>
+          <li><span class="facts__when">2025–26</span><div><strong>Article processing charge waivers</strong><br><span class="muted">Nature Portfolio, Scientific Reports.</span></div></li>
+          <li><span class="facts__when">2025</span><div><strong>2nd runner-up, AI Agent Development Competition</strong><br><span class="muted">IIUC, 200+ teams nationwide.</span></div></li>
+          <li><span class="facts__when">2024</span><div><strong>Kaggle Notebooks Master</strong></div></li>
+        </ul>
       </div>
     </div>
   </section>
 
 </main>
 
-<footer class="cta">
-  <div class="wrap cta__inner">
-    <div>
-      <h2 class="cta__title">Working on reasoning, RL or efficient inference?</h2>
-      <p class="cta__text">I would be glad to hear from you, whether about research, collaboration or a BSc position.</p>
-    </div>
-    <a class="btn btn--light" href="mailto:{{ site.author.email }}">{% include hk-icon.html name="mail" %}{{ site.author.email }}</a>
+<footer class="foot">
+  <div class="foot__inner">
+    <p>MD Azizul Hakim · Dhaka, Bangladesh · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+    <p>Updated {{ site.time | date: "%B %Y" }}</p>
   </div>
-  <p class="wrap cta__fine">© {{ site.time | date: "%Y" }} MD Azizul Hakim · Dhaka, Bangladesh · Updated {{ site.time | date: "%B %Y" }}</p>
 </footer>
 
 <script>

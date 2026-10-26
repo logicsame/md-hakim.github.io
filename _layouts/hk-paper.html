@@ -2,7 +2,7 @@
 layout: hk
 ---
 {% include hk-header.html %}
-<main id="main" class="wrap article">
+<main id="main" class="page article">
   <p class="article__back"><a href="{{ '/#publications' | relative_url }}">All publications</a></p>
   <h1 class="article__title">{{ page.title }}</h1>
   {% if page.venue %}{% assign yr = page.date | date: "%Y" %}<p class="article__venue">{{ page.venue }}{% unless page.venue contains yr %}, {{ yr }}{% endunless %}</p>{% endif %}
@@ -12,6 +12,8 @@ layout: hk
   <p class="article__cite">{{ page.citation }}</p>
   {% endif %}
 </main>
-<footer class="cta cta--slim">
-  <p class="wrap cta__fine">© {{ site.time | date: "%Y" }} MD Azizul Hakim · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+<footer class="foot">
+  <div class="foot__inner">
+    <p>MD Azizul Hakim · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  </div>
 </footer>
