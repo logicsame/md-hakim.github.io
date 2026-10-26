@@ -1,29 +1,20 @@
-/* MD Azizul Hakim: site styles. Strictly black and white. */
+/* MD Azizul Hakim: site styles. White page, maroon and green accents. Always light. */
 
 :root {
   --bg: #ffffff;
-  --ink: #000000;
-  --text: #1a1a1a;
-  --muted: #666666;
-  --faint: #8c8c8c;
-  --line: #e4e4e4;
-  --soft: #f4f4f4;
+  --ink: #111111;
+  --text: #1f1f1f;
+  --muted: #5c5c5c;
+  --faint: #9a9a9a;
+  --line: #e6e6e6;
+  --soft: #fbf3f1;
+  --maroon: #8e1b1b;         /* venues, labels, counts */
+  --maroon-soft: #fbf1ef;
+  --green: #2f7d3b;          /* underline on paper titles */
   --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
   --sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
   --col: 820px;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #000000; --ink: #ffffff; --text: #e8e8e8; --muted: #a0a0a0; --faint: #777777;
-    --line: #262626; --soft: #141414;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #000000; --ink: #ffffff; --text: #e8e8e8; --muted: #a0a0a0; --faint: #777777;
-  --line: #262626; --soft: #141414;
-  color-scheme: dark;
+  color-scheme: light;       /* always light, like a printed page */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -216,3 +207,26 @@ a:hover { text-decoration-color: var(--ink); text-decoration-thickness: 2px; }
   .top, .filters, .more summary { display: none; }
   .head__photo { filter: grayscale(1); }
 }
+
+/* ---------- colour layer (layout above is unchanged) ---------- */
+.head__photo { filter: none; }
+.head__label { background: var(--maroon); color: #fff; }
+.head__links .ico { color: var(--maroon); }
+.threads li::before { color: var(--maroon); }
+.block > h2::after { background: var(--line); height: 1px; }
+.news li.is-major time { color: var(--ink); }
+.news li.is-major time::before { background: var(--maroon); }
+.tally { border: 2px solid var(--maroon); border-radius: 8px; background: var(--maroon-soft); }
+.tally div + div, .tally div:nth-child(n+3) { border-color: color-mix(in srgb, var(--maroon) 25%, transparent); }
+.tally dt { color: var(--maroon); }
+.filter:hover { border-color: var(--maroon); color: var(--maroon); }
+.filter[aria-pressed="true"] { background: var(--maroon); border-color: var(--maroon); color: #fff; }
+.pub__venue { color: var(--maroon); }
+.pub.is-feature .pub__venue { background: var(--maroon); color: #fff; }
+.pub__title a { text-decoration: underline; text-decoration-color: var(--green); text-decoration-thickness: 1.5px; text-underline-offset: .22em; background-image: none; }
+.pub__title a:hover { color: var(--green); }
+.pub__sole { color: var(--maroon); }
+.pub__links a, .cite { color: var(--maroon); }
+.pub__links a::before, .cite::before { color: var(--maroon); }
+.bib { border-left-color: var(--maroon); background: var(--soft); }
+.article__venue { background: var(--maroon); color: #fff; }
