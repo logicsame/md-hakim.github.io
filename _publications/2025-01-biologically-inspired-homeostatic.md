@@ -4,10 +4,10 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-biologically-inspired-homeostatic
 excerpt: 'This paper introduces a novel neural network layer incorporating homeostatic regulation and adaptive repair mechanisms inspired by biological nervous systems, demonstrating superior performance on biomedical datasets.'
-date: 2025-10-01
+date: 2025-01-01
 venue: 'Scientific Reports'
 paperurl: 'https://doi.org/10.1038/s41598-025-09114-8'
-citation: 'Hakim, MD Azizul, & Alam, Mohammad Ifazul. (2025). &quot;Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms.&quot; <i>Scientific Reports</i>, 15, 9114.'
+citation: 'Hakim, MD Azizul, & Alam, Mohammad Ifazul. (2025). &quot;Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms.&quot; <i>Scientific Reports</i>, 15. https://doi.org/10.1038/s41598-025-09114-8'
 ---
 
 This paper presents a pioneering approach to neural network design by incorporating homeostatic regulation and adaptive repair mechanisms inspired by biological nervous systems. The proposed layer architecture demonstrates the ability to maintain stable function and self-repair under perturbations, addressing fundamental brittleness issues in artificial neural networks.
@@ -22,8 +22,6 @@ The research validates the approach across critical biomedical datasets includin
 **Journal:** Scientific Reports (Nature Portfolio)
 
 **Volume:** 15
-
-**Pages:** 9114
 
 **Year:** 2025
 

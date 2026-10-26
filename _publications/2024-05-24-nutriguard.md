@@ -4,9 +4,9 @@ collection: publications
 category: conferences
 permalink: /publication/2025-nutriguard
 date: 2025-01-01
-venue: 'IEEE Conference Proceedings'
+venue: 'IEEE QPAIN 2025'
 paperurl: 'https://doi.org/10.1109/QPAIN66474.2025.11171750'
-citation: 'Hakim, M.A., Ifty, R.A., Delowar, K.E., Chowdhury, S.H., Rashid, I., & Shakib, M. (2025). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE Conference Proceedings</i>. DOI: 10.1109/QPAIN66474.2025.11171750'
+citation: 'Hakim, M.A., Ifty, R.A., Delowar, K.E., Chowdhury, S.H., Rashid, I., & Shakib, M. (2025). &quot;NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.&quot; <i>IEEE International Conference on Quantum Photonics, Artificial Intelligence &amp; Networking (QPAIN)</i>. DOI: 10.1109/QPAIN66474.2025.11171750'
 ---
 
 This conference paper presents NutriGuard, an innovative multimodal AI framework integrating optical character recognition (OCR), deep learning, and fine-tuned large language models (LLMs) for personalized nutrition management. The system delivers real-time, context-aware dietary recommendations tailored to users' health profiles, advancing AI-driven preventive healthcare through multilingual, clinically validated frameworks.

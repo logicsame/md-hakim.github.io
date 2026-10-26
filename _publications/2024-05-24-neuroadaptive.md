@@ -4,9 +4,9 @@ collection: publications
 category: conferences
 permalink: /publication/2025-neuroadaptive-intelligence
 date: 2025-01-01
-venue: 'IEEE Conference Proceedings'
+venue: 'IEEE QPAIN 2025'
 paperurl: 'https://doi.org/10.1109/QPAIN66474.2025.11171860'
-citation: 'Hakim, M.A. (2025). &quot;Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification.&quot; <i>IEEE Conference Proceedings</i>. DOI: 10.1109/QPAIN66474.2025.11171860'
+citation: 'Hakim, M.A. (2025). &quot;Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification.&quot; <i>IEEE International Conference on Quantum Photonics, Artificial Intelligence &amp; Networking (QPAIN)</i>. DOI: 10.1109/QPAIN66474.2025.11171860'
 ---
 
 This conference paper introduces Neuroadaptive Intelligence, a novel approach inspired by biological systems. It details the development of a self-repairing neural layer incorporating adaptive learning mechanisms specifically designed for the complex task of molecular graph classification. This work represents a significant contribution to biologically-inspired AI and its application in scientific domains, particularly drug discovery and molecular property prediction.

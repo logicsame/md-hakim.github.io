@@ -5,8 +5,7 @@ category: toptierconference
 permalink: /publication/2026-training-quality-efficiency-boundaries
 excerpt: 'This paper establishes training quality as the primary determinant of reasoning efficiency in large language models, evaluating 50 models across 67,000+ assessments to show when additional inference tokens help, are redundant, or actively harm accuracy.'
 date: 2026-09-24
-venue: 'NeurIPS 2026 (Accepted Poster)'
-paperurl: 'https://arxiv.org/abs/XXXX.XXXXX'
+venue: 'NeurIPS 2026, main track (poster)'
 citation: 'Hakim, MD Azizul. (2026). &quot;Training Quality Determines Efficiency Boundaries in Test-Time Reasoning.&quot; <i>Neural Information Processing Systems (NeurIPS 2026, Accepted Poster)</i>.'
 ---
 
@@ -24,6 +23,6 @@ Graduate-level evaluation reveals that arithmetic benchmark performance does not
 
 **Year:** 2026
 
-**arXiv:** [XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
+**Code:** [github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning](https://github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning)
 
 **Keywords:** Large language models, test-time reasoning, inference efficiency, training quality, reasoning-specialised models, mechanistic evaluation

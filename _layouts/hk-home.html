@@ -1,0 +1,119 @@
+---
+layout: hk
+---
+<div class="shell">
+  {% include hk-profile.html nav=true %}
+
+  <main id="main" class="main">
+
+    <section class="intro" aria-labelledby="intro-title">
+      <h1 id="intro-title" class="intro__title">I study when language models should stop thinking.</h1>
+
+      <figure class="boundary">
+        <svg viewBox="0 0 340 150" role="img" aria-labelledby="boundary-cap">
+          <g class="boundary__grid">
+            <line x1="40" y1="20" x2="40" y2="122"/>
+            <line x1="40" y1="122" x2="326" y2="122"/>
+            <line class="boundary__guide" x1="183" y1="38" x2="183" y2="122"/>
+          </g>
+          <path class="boundary__curve" pathLength="1" d="M40,114 C78,110 104,86 128,64 C150,44 166,38 183,36.5 L326,35"/>
+          <circle class="boundary__point" cx="183" cy="36.5" r="4.5"/>
+          <g class="boundary__text">
+            <text x="34" y="26" text-anchor="end">acc.</text>
+            <text x="40" y="138" text-anchor="middle">128</text>
+            <text x="183" y="138" text-anchor="middle">1k</text>
+            <text x="326" y="138" text-anchor="end">8k tokens</text>
+            <text class="boundary__label" x="192" y="26">plateau near 1,000 tokens</text>
+          </g>
+        </svg>
+        <figcaption id="boundary-cap">The NeurIPS 2026 result, sketched: standard models stop gaining accuracy near 1,000 generated tokens. Training quality decides how quickly a model gets there.</figcaption>
+      </figure>
+
+      {{ content }}
+    </section>
+
+    <section id="news" class="block" aria-labelledby="news-title">
+      <h2 id="news-title">News</h2>
+      {% assign news_top = site.data.news | slice: 0, 5 %}
+      {% assign news_rest = site.data.news | slice: 5, 100 %}
+      <ul class="news">
+        {% for n in news_top %}{% include hk-news-item.html item=n %}{% endfor %}
+      </ul>
+      {% if news_rest.size > 0 %}
+      <details class="more">
+        <summary>Earlier news</summary>
+        <ul class="news">
+          {% for n in news_rest %}{% include hk-news-item.html item=n %}{% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    </section>
+
+    <section id="papers" class="block" aria-labelledby="papers-title">
+      <h2 id="papers-title">Papers</h2>
+      <p class="block__note">Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+      <h3 class="sub">Peer-reviewed</h3>
+      <ol class="papers">
+        {% for p in site.data.papers %}{% if p.group == "reviewed" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
+      </ol>
+      <h3 class="sub">Under review and preprints</h3>
+      <ol class="papers">
+        {% for p in site.data.papers %}{% if p.group == "preprint" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
+      </ol>
+    </section>
+
+    <section id="experience" class="block" aria-labelledby="exp-title">
+      <h2 id="exp-title">Experience and education</h2>
+      <ul class="rows">
+        <li>
+          <span class="rows__when">2024 – now</span>
+          <div><strong>Independent researcher</strong><br><span class="muted">Self-directed work on LLM reasoning efficiency and training quality, without a lab or funding.</span></div>
+        </li>
+        <li>
+          <span class="rows__when">Dec 2025 – Feb 2026</span>
+          <div><strong>AI Researcher Intern</strong>, Universe Soft Tech</div>
+        </li>
+        <li>
+          <span class="rows__when">Jul 2021 – Feb 2026</span>
+          <div><strong>Diploma-in-Engineering, Computer Science &amp; Technology</strong><br><span class="muted">Bangladesh Sweden Polytechnic Institute. CGPA 3.40 / 4.00.</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="honors" class="block" aria-labelledby="honors-title">
+      <h2 id="honors-title">Honors and service</h2>
+      <ul class="rows">
+        <li>
+          <span class="rows__when">2026</span>
+          <div><strong>NeurIPS 2026 award</strong>: complimentary registration and hotel stay</div>
+        </li>
+        <li>
+          <span class="rows__when">2025</span>
+          <div><strong>2nd runner-up</strong>, national AI Agent Development Competition at IIUC (200+ teams)</div>
+        </li>
+        <li>
+          <span class="rows__when">2024</span>
+          <div><strong>Kaggle Notebooks Master</strong></div>
+        </li>
+        <li>
+          <span class="rows__when">Reviewer</span>
+          <div>Frontiers in Artificial Intelligence, Frontiers in Computational Neuroscience, Frontiers in Nutrition</div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="block" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <ul class="projects">
+        <li><a href="https://github.com/logicsame/IIUC-Competition">FounderAI</a>: CMO, CPO, CTO and COO agents for early-stage founders, built with CrewAI and LangGraph. Placed in the IIUC competition.</li>
+        <li><a href="https://github.com/logicsame/health-recommendation-system">Food-label health advisor</a>: OCR plus retrieval over dietary guidelines to give condition-aware recommendations.</li>
+        <li><a href="https://github.com/logicsame/ai-agent-based-trip-guider-main-file">Trip planner</a>: FastAPI service with hybrid recommendations and live weather and pricing agents.</li>
+        <li><a href="https://github.com/logicsame/train-pegasus-model-on-bengali-text-summarization-using-mlops">Bengali summarization</a>: Pegasus fine-tuned for Bengali, with a full MLOps training and serving pipeline.</li>
+      </ul>
+    </section>
+
+    <footer class="foot">
+      <p>Updated {{ site.time | date: "%B %Y" }}. Write to me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+    </footer>
+  </main>
+</div>

@@ -6,7 +6,7 @@ permalink: /publication/2025-brevity-constraints
 date: 2026-04-11
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2604.00025'
-citation: 'Hakim, MD Azizul (2025). &quot;Brevity Constraints Reverse Performance Hierarchies in Language Models.&quot; <i>arXiv preprint</i>. arXiv:2604.00025'
+citation: 'Hakim, MD Azizul (2026). &quot;Brevity Constraints Reverse Performance Hierarchies in Language Models.&quot; <i>arXiv preprint</i>. arXiv:2604.00025'
 ---
 This preprint investigates how imposing brevity constraints on language model outputs can unexpectedly reverse established performance hierarchies across model families and sizes. The findings have significant implications for understanding test-time compute efficiency and the deployment behaviour of large language models under constrained generation settings.
 

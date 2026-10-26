@@ -1,0 +1,4 @@
+{% assign n = include.item %}<li class="news__item{% if n.highlight %} is-major{% endif %}">
+  <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.month_only %}{{ n.date | date: "%b %Y" }}{% else %}{{ n.date | date: "%b %-d, %Y" }}{% endif %}</time>
+  <p>{{ n.text }}</p>
+</li>

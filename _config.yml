@@ -12,9 +12,9 @@ site_theme               : "default"
 title                    : "Hakim's Homepage"
 title_separator          : "-"
 name                     : &name "MD Azizul Hakim"
-description              : &description "personal description"
-url                      : https://logicsame.github.io/md-hakim.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+description              : &description "MD Azizul Hakim: independent AI researcher working on test-time reasoning efficiency and training quality in large language models."
+url                      : "https://logicsame.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl                  : "/md-hakim.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "logicsame/md-hakim.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -28,8 +28,8 @@ author:
   avatar           : "Profile.jpg"
   pronouns         : "He/Him" 
   bio              : "@NeurIPS Sole Author | Dip. Eng. (CST) @BSPI | AI Researcher"
-  location         : "Earth"
-  employer         : "Bangladesh Sweden Polytechnic Ins"
+  location         : "Dhaka, Bangladesh"
+  employer         : "Bangladesh Sweden Polytechnic Institute"
   education        : "Diploma in Computer Science and Engineering"
   email            : "azizulhakim8291@gmail.com" 
   
@@ -231,7 +231,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: hk-paper
       author_profile: true
       share: true
       comments: true

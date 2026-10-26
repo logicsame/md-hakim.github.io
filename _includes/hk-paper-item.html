@@ -1,0 +1,15 @@
+{% assign p = include.p %}<li class="paper{% if p.feature %} is-feature{% endif %}" id="{{ p.id }}">
+  <span class="paper__venue" title="{{ p.venue_full }}">{{ p.venue }}</span>
+  <div class="paper__body">
+    <h4 class="paper__title">{{ p.title }}</h4>
+    <p class="paper__authors">{% for a in p.authors %}{% if a == "MD Azizul Hakim" %}<b>{{ a }}</b>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.sole %} <span class="muted">(sole author)</span>{% endif %}</p>
+    <p class="paper__tldr">{{ p.tldr }}</p>
+    {% if p.links.size > 0 or p.bibtex %}
+    <p class="paper__links">
+      {% for l in p.links %}{% assign u = l.url %}{% if u contains "://" %}{% else %}{% assign u = u | relative_url %}{% endif %}<a href="{{ u }}">{{ l.label }}</a>{% endfor %}
+      {% if p.bibtex %}<button type="button" class="cite" data-target="bib-{{ p.id }}" aria-expanded="false">BibTeX</button>{% endif %}
+    </p>
+    {% if p.bibtex %}<pre class="bib" id="bib-{{ p.id }}" hidden>{{ p.bibtex | strip | xml_escape }}</pre>{% endif %}
+    {% endif %}
+  </div>
+</li>

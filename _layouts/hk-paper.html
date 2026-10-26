@@ -1,0 +1,18 @@
+---
+layout: hk
+---
+<div class="shell">
+  {% include hk-profile.html %}
+  <main id="main" class="main">
+    <article class="article">
+      <p class="article__back"><a href="{{ '/#papers' | relative_url }}">All papers</a></p>
+      <h1 class="article__title">{{ page.title }}</h1>
+      {% if page.venue %}{% assign yr = page.date | date: "%Y" %}<p class="article__venue">{{ page.venue }}{% unless page.venue contains yr %}, {{ yr }}{% endunless %}</p>{% endif %}
+      <div class="prose">{{ content }}</div>
+      {% if page.citation %}
+      <h2>Citation</h2>
+      <p class="article__cite">{{ page.citation }}</p>
+      {% endif %}
+    </article>
+  </main>
+</div>

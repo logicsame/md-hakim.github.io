@@ -1,0 +1,114 @@
+# Rendered on the homepage. `group`: reviewed | preprint.
+# `authors` is an array; "MD Azizul Hakim" is bolded automatically.
+- id: neurips26
+  group: reviewed
+  title: "Training Quality Determines Efficiency Boundaries in Test-Time Reasoning"
+  authors: ["MD Azizul Hakim"]
+  sole: true
+  venue: "NeurIPS 2026"
+  venue_full: "Neural Information Processing Systems, main track (poster)"
+  feature: true
+  tldr: "Across 50 language models (0.5B–685B) and 67,000+ evaluations, training methodology rather than size or token budget decides where extra reasoning tokens stop helping. Capping generation length lifts accuracy by 15.4 points."
+  links:
+    - { label: "Abstract", url: "/publication/2026-training-quality-efficiency-boundaries" }
+    - { label: "Code", url: "https://github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning" }
+  bibtex: |
+    @inproceedings{hakim2026training,
+      title     = {Training Quality Determines Efficiency Boundaries in Test-Time Reasoning},
+      author    = {Hakim, MD Azizul},
+      booktitle = {Advances in Neural Information Processing Systems},
+      year      = {2026}
+    }
+
+- id: scirep26
+  group: reviewed
+  title: "Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks"
+  authors: ["MD Azizul Hakim", "Md Shihab Uddin", "Talha Ibne Anis"]
+  venue: "Sci. Reports 2026"
+  venue_full: "Scientific Reports (Nature Portfolio), accepted"
+  tldr: "Intrusion detectors trained on one industrial network fail on others without retraining. They lean on coarse port features, and the evaluation protocol alone can flip which network looks harder."
+  links:
+    - { label: "arXiv", url: "https://arxiv.org/abs/2607.00553" }
+
+- id: scirep25
+  group: reviewed
+  title: "Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms"
+  authors: ["MD Azizul Hakim", "Mohammad Ifazul Alam"]
+  venue: "Sci. Reports 2025"
+  venue_full: "Scientific Reports (Nature Portfolio), vol. 15"
+  tldr: "A neural layer that regulates its own activity and repairs itself after perturbation, evaluated on molecular and biomedical graph benchmarks."
+  links:
+    - { label: "Paper", url: "https://doi.org/10.1038/s41598-025-09114-8" }
+    - { label: "Code", url: "https://github.com/logicsame/bio-logical-self-healing-neural-system" }
+  bibtex: |
+    @article{hakim2025biologically,
+      title   = {Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms},
+      author  = {Hakim, MD Azizul and Alam, Mohammad Ifazul},
+      journal = {Scientific Reports},
+      volume  = {15},
+      year    = {2025},
+      doi     = {10.1038/s41598-025-09114-8}
+    }
+
+- id: qpain-cv
+  group: reviewed
+  title: "A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision"
+  authors: ["MD Azizul Hakim", "Rashedul Arefin Ifty", "Khaled Eabne Delowar", "Samiul Azam Shuvo", "Zarin Tasneem", "Mohammad Ifazul Alam"]
+  venue: "IEEE QPAIN 2025"
+  venue_full: "IEEE International Conference on Quantum Photonics, Artificial Intelligence & Networking"
+  tldr: "Layers with calcium-dependent regulation and homeostatic control reach 90.42% on CIFAR-10, 3.77 points above the baseline."
+  links:
+    - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11172203" }
+
+- id: qpain-nutri
+  group: reviewed
+  title: "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention"
+  authors: ["MD Azizul Hakim", "Rashedul Arefin Ifty", "Khaled Eabne Delowar", "Sazzad Hossen Chowdhury", "Imdadur Rashid", "Md Shakib"]
+  venue: "IEEE QPAIN 2025"
+  venue_full: "IEEE International Conference on Quantum Photonics, Artificial Intelligence & Networking"
+  tldr: "OCR for English and Bengali food labels plus a fine-tuned Llama-3.2 that gives condition-aware dietary advice."
+  links:
+    - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171750" }
+
+- id: qpain-graph
+  group: reviewed
+  title: "Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification"
+  authors: ["MD Azizul Hakim"]
+  sole: true
+  venue: "IEEE QPAIN 2025"
+  venue_full: "IEEE International Conference on Quantum Photonics, Artificial Intelligence & Networking"
+  tldr: "A self-repairing layer with adaptive learning, applied to molecular property prediction."
+  links:
+    - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171860" }
+
+- id: termination
+  group: preprint
+  title: "Termination Calibration Recovers Answers That Reasoning Models Compute but Never Express"
+  authors: ["MD Azizul Hakim"]
+  sole: true
+  venue: "Under review"
+  venue_full: "Under review"
+  tldr: "A reward that teaches reasoning models when to stop, recovering correct answers they reach internally but cut off before writing out."
+  links: []
+
+- id: brevity
+  group: preprint
+  title: "Brevity Constraints Reverse Performance Hierarchies in Language Models"
+  authors: ["MD Azizul Hakim"]
+  sole: true
+  venue: "arXiv 2026"
+  venue_full: "arXiv:2604.00025"
+  tldr: "Asking models to answer briefly can reverse which model families and sizes come out on top."
+  links:
+    - { label: "arXiv", url: "https://arxiv.org/abs/2604.00025" }
+
+- id: msth
+  group: preprint
+  title: "Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks"
+  authors: ["MD Azizul Hakim"]
+  sole: true
+  venue: "arXiv 2026"
+  venue_full: "arXiv:2602.07009"
+  tldr: "Coordinating homeostatic control across several timescales gives more stable training and better robustness."
+  links:
+    - { label: "arXiv", url: "https://arxiv.org/abs/2602.07009" }

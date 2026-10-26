@@ -1,25 +1,13 @@
 ---
 permalink: /
-author_profile: true
-redirect_from: 
+layout: hk-home
+title: "MD Azizul Hakim"
+excerpt: "Independent AI researcher in Dhaka, Bangladesh, studying test-time reasoning efficiency and training quality in large language models. Sole author of a NeurIPS 2026 paper."
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<div style="text-align: center; margin-bottom: 30px;">
-  <h1 style="color: #2a7ae2; font-size: 2.5em;">MD Azizul Hakim</h1>
-  <h3 style="color: #555;">NeurIPS 2026 Sole Author | Dip. Eng. (CST) @BSPI | AI Researcher | LLM Training & Inference Optimization</h3>
-  <p><em>Published Researcher Seeking Fully Funded BSc Opportunities in Computer Science</em></p>
-</div>
+My research asks how the way a language model is trained shapes the way it spends compute at inference time: when extra reasoning tokens help, when they are wasted, and when they hurt accuracy. My sole-authored NeurIPS 2026 paper shows across 50 models that training quality, more than parameter count or token budget, sets these efficiency boundaries. I follow that thread into reinforcement-learning rewards that teach models when to stop.
 
-I recently completed my 4-year Diploma in Computer Science & Technology at **Bangladesh Sweden Polytechnic Institute (BSPI)**. My paper, **"Training Quality Determines Efficiency Boundaries in Test-Time Reasoning,"** has been accepted as a **poster at the NeurIPS 2026 main track — as Sole Author**, one of the most competitive venues in machine learning research, where I'll present in December.
-I didn't wait to graduate to start contributing to science — in my **7th semester**, I published a research paper in **Scientific Reports (Nature Portfolio)** as Lead Author, followed by **3 IEEE conference papers** as Lead Author, all focused on Artificial Intelligence.
-During my **8th semester internship**, I worked as an **AI Researcher at Universe Soft Tech**, where I applied my research skills in a real-world industry setting.
-I am currently seeking **BSc opportunities with scholarships** in Computer Science to continue my academic and research journey at a higher level. If you are a professor, researcher, or institution looking for a motivated and already-published researcher — feel free to [connect](https://www.linkedin.com/in/md-azizul-hakim-0b2635359/) or message me!
-
-## Research Interests
-- **Large Language Models (LLMs)** — reasoning, alignment, and capability evaluation
-- **Test-Time Compute Efficiency in LLMs** — scaling inference-time computation for improved performance
-- **Reinforcement Learning** — training strategies and policy optimization for AI agents
-- **Training Quality and Deployment Behaviour of LLMs** — understanding how training decisions affect real-world model behaviour
-- **Inference Optimization of LLMs** — reducing latency and compute cost without sacrificing quality
+I work independently, without a lab or funding, and recently completed a four-year Diploma in Computer Science &amp; Technology at Bangladesh Sweden Polytechnic Institute. I am looking for a fully funded BSc in Computer Science where I can keep working on LLM reasoning, RL post-training and efficient inference. If your group works on these, I would be glad to hear from you.

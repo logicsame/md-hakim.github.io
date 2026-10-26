@@ -4,12 +4,10 @@ collection: publications
 category: conferences
 permalink: /publication/2025-neuroplasticity-cv
 date: 2025-01-01
-venue: 'IEEE Conference Proceedings'
+venue: 'IEEE QPAIN 2025'
 paperurl: 'https://doi.org/10.1109/QPAIN66474.2025.11172203'
-citation: 'Hakim, M.A., Ifty, R.A., Delowar, K.E., Shuvo, S.A., Tasneem, Z., & Alam, M.I. (2025). &quot;A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.&quot; <i>IEEE Conference Proceedings</i>. DOI: 10.1109/QPAIN66474.2025.11172203'
+citation: 'Hakim, M.A., Ifty, R.A., Delowar, K.E., Shuvo, S.A., Tasneem, Z., & Alam, M.I. (2025). &quot;A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.&quot; <i>IEEE International Conference on Quantum Photonics, Artificial Intelligence &amp; Networking (QPAIN)</i>. DOI: 10.1109/QPAIN66474.2025.11172203'
 ---
-
-**Abstract:**
 
 In the rapidly advancing realm of artificial intelligence, bridging biological processes with computational models has become a pivotal strategy for enhancing robustness and adaptability in neural networks. This paper introduces and evaluates a biologically inspired neural network layer—termed BioLogicalNeuron—across multiple image classification benchmarks, including CIFAR-10, MNIST, and Fashion-MNIST. By incorporating calcium-dependent regulation, homeostatic control, and adaptive repair strategies, the architecture consistently outperforms standard deep learning methods.
 

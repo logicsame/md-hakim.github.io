@@ -3,10 +3,10 @@ title: "Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Net
 collection: publications
 category: preprints
 permalink: /publication/2025-multiscale-temporal-homeostasis
-date: 2025-01-01
+date: 2026-02-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2602.07009'
-citation: 'Hakim, MD Azizul (2025). &quot;Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks.&quot; <i>arXiv preprint</i>. arXiv:2602.07009'
+citation: 'Hakim, MD Azizul (2026). &quot;Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks.&quot; <i>arXiv preprint</i>. arXiv:2602.07009'
 ---
 This preprint introduces multi-scale temporal homeostasis as a mechanism for enhancing the efficiency and robustness of artificial neural networks. Inspired by biological nervous systems that coordinate activity across multiple temporal scales, the proposed framework enables more stable training dynamics and improved resilience under adverse conditions.
 

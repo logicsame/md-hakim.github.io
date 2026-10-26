@@ -1,0 +1,28 @@
+<aside class="profile">
+  <a class="profile__photo" href="{{ '/' | relative_url }}" aria-label="Home">
+    <img src="{{ '/images/hakim-portrait.jpg' | relative_url }}" alt="Portrait of MD Azizul Hakim" width="260" height="260">
+  </a>
+  <div class="profile__id">
+    <p class="profile__name"><a href="{{ '/' | relative_url }}">MD Azizul Hakim</a></p>
+    <p class="profile__role">Independent AI researcher<br>Dhaka, Bangladesh</p>
+  </div>
+  <p class="profile__status"><span class="dot" aria-hidden="true"></span>Looking for a fully funded BSc in Computer Science</p>
+  <ul class="profile__links">
+    <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+    <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+    <li><a href="https://github.com/logicsame">GitHub</a></li>
+    <li><a href="https://huggingface.co/Md-Hakim">Hugging Face</a></li>
+    <li><a href="https://www.kaggle.com/hakim11">Kaggle</a></li>
+    <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/">LinkedIn</a></li>
+    <li><a href="{{ '/assets/resume.pdf' | relative_url }}">CV (PDF)</a></li>
+  </ul>
+  {% if include.nav %}
+  <nav class="profile__nav" aria-label="Sections">
+    <a href="#news">News</a>
+    <a href="#papers">Papers</a>
+    <a href="#experience">Experience</a>
+    <a href="#honors">Honors &amp; service</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  {% endif %}
+</aside>
