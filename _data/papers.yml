@@ -1,6 +1,7 @@
 # Rendered on the homepage. `group`: reviewed | preprint.
 # `authors` is an array; "MD Azizul Hakim" is bolded automatically.
 - id: neurips26
+  area: llm
   venue_line: "NeurIPS 2026 (Main Track, Poster)"
   topics: ["LLM Reasoning", "Inference Efficiency"]
   group: reviewed
@@ -23,6 +24,7 @@
     }
 
 - id: scirep26
+  area: applied
   venue_line: "Scientific Reports 2026 (Nature Portfolio)"
   topics: ["Robustness", "IIoT Security"]
   group: reviewed
@@ -35,6 +37,7 @@
     - { label: "arXiv", url: "https://arxiv.org/abs/2607.00553" }
 
 - id: scirep25
+  area: bio
   venue_line: "Scientific Reports 2025 (Nature Portfolio)"
   topics: ["Bio-inspired AI", "Graph Learning"]
   group: reviewed
@@ -57,6 +60,7 @@
     }
 
 - id: qpain-cv
+  area: bio
   venue_line: "IEEE QPAIN 2025"
   topics: ["Bio-inspired AI", "Vision"]
   group: reviewed
@@ -69,6 +73,7 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11172203" }
 
 - id: qpain-nutri
+  area: applied
   venue_line: "IEEE QPAIN 2025"
   topics: ["LLM Applications", "Health AI"]
   group: reviewed
@@ -81,6 +86,7 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171750" }
 
 - id: qpain-graph
+  area: bio
   venue_line: "IEEE QPAIN 2025"
   topics: ["Bio-inspired AI", "Molecular ML"]
   group: reviewed
@@ -94,6 +100,7 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171860" }
 
 - id: brevity
+  area: llm
   venue_line: "arXiv 2026"
   topics: ["LLM Evaluation", "Inference Efficiency"]
   group: preprint
@@ -107,6 +114,7 @@
     - { label: "arXiv", url: "https://arxiv.org/abs/2604.00025" }
 
 - id: msth
+  area: bio
   venue_line: "arXiv 2026"
   topics: ["Bio-inspired AI", "Robustness"]
   group: preprint

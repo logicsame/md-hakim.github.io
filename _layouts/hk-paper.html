@@ -2,16 +2,16 @@
 layout: hk
 ---
 {% include hk-header.html %}
-<main id="main" class="page">
-  <article class="article">
-    <p class="article__back"><a href="{{ '/#publications' | relative_url }}">All publications</a></p>
-    <h1 class="article__title">{{ page.title }}</h1>
-    {% if page.venue %}{% assign yr = page.date | date: "%Y" %}<p class="article__venue">{{ page.venue }}{% unless page.venue contains yr %}, {{ yr }}{% endunless %}</p>{% endif %}
-    <div class="prose">{{ content }}</div>
-    {% if page.citation %}
-    <h2>Citation</h2>
-    <p class="article__cite">{{ page.citation }}</p>
-    {% endif %}
-  </article>
+<main id="main" class="wrap article">
+  <p class="article__back"><a href="{{ '/#publications' | relative_url }}">All publications</a></p>
+  <h1 class="article__title">{{ page.title }}</h1>
+  {% if page.venue %}{% assign yr = page.date | date: "%Y" %}<p class="article__venue">{{ page.venue }}{% unless page.venue contains yr %}, {{ yr }}{% endunless %}</p>{% endif %}
+  <div class="prose">{{ content }}</div>
+  {% if page.citation %}
+  <h2>Citation</h2>
+  <p class="article__cite">{{ page.citation }}</p>
+  {% endif %}
 </main>
-{% include hk-footer.html %}
+<footer class="cta cta--slim">
+  <p class="wrap cta__fine">© {{ site.time | date: "%Y" }} MD Azizul Hakim · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+</footer>
