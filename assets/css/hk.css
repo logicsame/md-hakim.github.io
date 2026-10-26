@@ -230,3 +230,78 @@ a:hover { text-decoration-color: var(--ink); text-decoration-thickness: 2px; }
 .pub__links a::before, .cite::before { color: var(--maroon); }
 .bib { border-left-color: var(--maroon); background: var(--soft); }
 .article__venue { background: var(--maroon); color: #fff; }
+
+/* ---------- sticky identity bar ---------- */
+.top { transition: box-shadow .25s ease, border-color .25s ease; }
+.top.is-stuck { box-shadow: 0 6px 20px -14px rgba(0,0,0,.35); }
+.top__inner { gap: 12px; }
+.top__id { display: inline-flex; align-items: center; gap: 10px; min-width: 0; text-decoration: none; color: var(--ink); }
+.top__id:hover { color: var(--ink); }
+.top__name { font-weight: 600; white-space: nowrap; }
+.top__avatar, .top__label, .top__icons {
+  opacity: 0; pointer-events: none; transform: translateY(-4px);
+  transition: opacity .25s ease, transform .25s ease, width .25s ease, margin .25s ease;
+}
+.top__avatar { width: 0; height: 30px; border-radius: 50%; object-fit: cover; margin-right: -10px; }
+.top__label {
+  font: 600 .6875rem/1 var(--sans); padding: 4px 7px; border-radius: 2px;
+  background: var(--maroon); color: #fff; white-space: nowrap;
+}
+.top__icons { list-style: none; margin: 0 0 0 auto; padding: 0; display: none; gap: 2px; }
+.top__icons a { display: inline-flex; width: 30px; height: 30px; align-items: center; justify-content: center; border-radius: 50%; color: var(--muted); }
+.top__icons a:hover { color: var(--maroon); background: var(--maroon-soft); }
+.top__icons .ico { width: 15px; height: 15px; }
+.top.is-stuck .top__avatar, .top.is-stuck .top__label, .top.is-stuck .top__icons { opacity: 1; pointer-events: auto; transform: none; }
+.top.is-stuck .top__avatar { width: 30px; margin-right: 0; }
+@media (min-width: 860px) {
+  .top__icons { display: flex; }
+  .top.is-stuck .top__nav { margin-left: 8px; padding-left: 14px; border-left: 1px solid var(--line); }
+}
+@media (max-width: 600px) { .top__label { display: none; } .top__nav a:nth-child(3) { display: none; } }
+@media (prefers-reduced-motion: reduce) { .top__avatar, .top__label, .top__icons { transition: none; } }
+
+/* ---------- research thread illustrations ---------- */
+.threads--glyph li { padding-left: 92px; min-height: 64px; }
+.threads--glyph li::before { content: none; }
+.thread__glyph { position: absolute; left: 0; top: 16px; width: 64px; height: 40px; overflow: visible; }
+.thread__glyph .g-axis { fill: none; stroke: var(--line); stroke-width: 1.5; }
+.thread__glyph .g-line { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; }
+.thread__glyph .g-dot { fill: var(--maroon); }
+.thread__glyph .g-fill rect { fill: var(--ink); }
+.thread__glyph .g-ghost rect { fill: none; stroke: var(--faint); stroke-width: 1.2; stroke-dasharray: 2 2; }
+.thread__glyph .g-stop { stroke: var(--maroon); stroke-width: 2; }
+.thread__glyph .g-block { fill: var(--maroon-soft); stroke: var(--ink); stroke-width: 1.6; }
+@media (max-width: 520px) {
+  .threads--glyph li { padding-left: 0; padding-top: 64px; }
+  .thread__glyph { top: 14px; }
+}
+
+/* ---------- NeurIPS figure ---------- */
+.fig { margin: 16px 0 4px; padding: 16px 16px 12px; border: 1px solid var(--line); border-radius: 8px; background: #fcfcfc; }
+.fig svg { display: block; width: 100%; height: auto; overflow: visible; }
+.fig__grid line { stroke: var(--line); stroke-width: 1; }
+.fig__grid line:first-child, .fig__grid line:nth-child(2) { stroke: #c9c9c9; }
+.fig__guide { stroke: var(--maroon) !important; stroke-dasharray: 3 4; opacity: .55; }
+.fig__weak, .fig__strong { fill: none; stroke-width: 2.5; stroke-linecap: round; }
+.fig__weak { stroke: #9a9a9a; }
+.fig__strong { stroke: var(--maroon); }
+.fig__dot { fill: #9a9a9a; } .fig__dot--strong { fill: var(--maroon); }
+.fig__txt text { font: 400 11.5px var(--sans); fill: var(--muted); }
+.fig__k { font-weight: 600 !important; fill: #7a7a7a !important; }
+.fig__k--strong { fill: var(--maroon) !important; }
+.fig figcaption { margin-top: 8px; font: 400 .8125rem/1.5 var(--sans); color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) {
+  .fig__strong, .fig__weak { stroke-dasharray: 700; stroke-dashoffset: 700; animation: fig-draw 1.4s cubic-bezier(.6,.1,.3,1) .2s forwards; }
+  .fig__weak { animation-delay: .5s; }
+  @keyframes fig-draw { to { stroke-dashoffset: 0; } }
+}
+
+/* ---------- typography polish ---------- */
+p, li { text-wrap: pretty; }
+h1, h2, h3 { text-wrap: balance; }
+.about > p:first-child { font-size: 1.1875rem; line-height: 1.65; color: var(--ink); }
+.about, .pub__tldr, .news p { font-variant-numeric: oldstyle-nums proportional-nums; }
+.about strong { font-weight: 600; box-shadow: inset 0 -.32em 0 var(--maroon-soft); }
+.head__name { font-feature-settings: "kern", "liga", "dlig"; }
+.pub__authors, .news time, .facts__when, .tally { font-variant-numeric: lining-nums tabular-nums; }
+::selection { background: var(--maroon); color: #fff; }

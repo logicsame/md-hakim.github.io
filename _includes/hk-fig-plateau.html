@@ -1,0 +1,21 @@
+<figure class="fig">
+  <svg viewBox="0 0 520 210" role="img" aria-labelledby="fig-plateau-cap">
+    <g class="fig__grid">
+      <line x1="48" y1="20" x2="48" y2="170"/><line x1="48" y1="170" x2="500" y2="170"/>
+      <line x1="48" y1="95" x2="500" y2="95"/><line x1="48" y1="45" x2="500" y2="45"/>
+      <line class="fig__guide" x1="250" y1="20" x2="250" y2="170"/>
+    </g>
+    <path class="fig__weak" d="M48 162C100 158 140 140 180 118C215 99 236 92 250 90L500 88"/>
+    <path class="fig__strong" d="M48 150C82 140 110 96 140 66C160 48 178 44 196 43L500 42"/>
+    <circle class="fig__dot" cx="250" cy="90" r="4.5"/><circle class="fig__dot fig__dot--strong" cx="196" cy="43" r="4.5"/>
+    <g class="fig__txt">
+      <text x="40" y="24" text-anchor="end">acc.</text>
+      <text x="48" y="190" text-anchor="middle">short</text>
+      <text x="250" y="190" text-anchor="middle">~1k tokens</text>
+      <text x="500" y="190" text-anchor="end">long budget</text>
+      <text class="fig__k fig__k--strong" x="508" y="40" text-anchor="end" dy="-8">higher training quality</text>
+      <text class="fig__k" x="508" y="86" text-anchor="end" dy="-8">lower training quality</text>
+    </g>
+  </svg>
+  <figcaption id="fig-plateau-cap">Schematic of the finding: accuracy stops improving near 1,000 generated tokens, and training quality decides how early and how high a model plateaus.</figcaption>
+</figure>

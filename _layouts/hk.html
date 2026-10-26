@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/hk.css' | relative_url }}?v=7">
+  <link rel="stylesheet" href="{{ '/assets/css/hk.css' | relative_url }}?v=8">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"MD Azizul Hakim","url":"{{ '/' | absolute_url }}","jobTitle":"AI Researcher","description":"Sole author of a NeurIPS 2026 main-track paper","sameAs":["{{ site.author.googlescholar }}","https://github.com/logicsame","https://huggingface.co/Md-Hakim","https://www.kaggle.com/hakim11","https://www.linkedin.com/in/md-azizul-hakim-0b2635359/"]}
   </script>
@@ -27,6 +27,13 @@
   <a class="skip" href="#main">Skip to content</a>
   {{ content }}
   <script>
+    (function () {
+      var top = document.getElementById('top'), head = document.querySelector('.head');
+      if (!top || !head || !('IntersectionObserver' in window)) return;
+      new IntersectionObserver(function (e) {
+        top.classList.toggle('is-stuck', !e[0].isIntersecting);
+      }, { rootMargin: '-60px 0px 0px 0px' }).observe(head.querySelector('.head__name'));
+    })();
     document.addEventListener('click', function (e) {
       var b = e.target.closest('.cite');
       if (!b) return;

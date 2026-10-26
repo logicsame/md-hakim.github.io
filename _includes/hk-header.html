@@ -1,6 +1,18 @@
-<header class="top">
+<header class="top{% unless page.permalink == "/" %} is-stuck{% endunless %}" id="top">
   <div class="top__inner">
-    <a class="top__name" href="{{ '/' | relative_url }}">MD Azizul Hakim</a>
+    <a class="top__id" href="{{ '/' | relative_url }}">
+      <img class="top__avatar" src="{{ '/images/hakim-portrait.jpg' | relative_url }}" alt="" width="64" height="64">
+      <span class="top__name">MD Azizul Hakim</span>
+      <span class="top__label">NeurIPS 2026 Sole Author</span>
+    </a>
+    <ul class="top__icons" aria-label="Profiles">
+      <li><a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email">{% include hk-icon.html name="mail" %}</a></li>
+      <li><a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar">{% include hk-icon.html name="scholar" %}</a></li>
+      <li><a href="https://github.com/logicsame" aria-label="GitHub" title="GitHub">{% include hk-icon.html name="github" %}</a></li>
+      <li><a href="https://huggingface.co/Md-Hakim" aria-label="Hugging Face" title="Hugging Face">{% include hk-icon.html name="hf" %}</a></li>
+      <li><a href="https://www.kaggle.com/hakim11" aria-label="Kaggle" title="Kaggle">{% include hk-icon.html name="kaggle" %}</a></li>
+      <li><a href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/" aria-label="LinkedIn" title="LinkedIn">{% include hk-icon.html name="linkedin" %}</a></li>
+    </ul>
     <nav class="top__nav" aria-label="Main">
       <a href="{{ '/' | relative_url }}#news">News</a>
       <a href="{{ '/' | relative_url }}#publications">Publications</a>
