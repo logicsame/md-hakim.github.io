@@ -1,6 +1,8 @@
 # Rendered on the homepage. `group`: reviewed | preprint.
 # `authors` is an array; "MD Azizul Hakim" is bolded automatically.
 - id: neurips26
+  venue_line: "NeurIPS 2026 (Main Track, Poster)"
+  topics: ["LLM Reasoning", "Inference Efficiency"]
   group: reviewed
   title: "Training Quality Determines Efficiency Boundaries in Test-Time Reasoning"
   authors: ["MD Azizul Hakim"]
@@ -21,6 +23,8 @@
     }
 
 - id: scirep26
+  venue_line: "Scientific Reports 2026 (Nature Portfolio)"
+  topics: ["Robustness", "IIoT Security"]
   group: reviewed
   title: "Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks"
   authors: ["MD Azizul Hakim", "Md Shihab Uddin", "Talha Ibne Anis"]
@@ -31,6 +35,8 @@
     - { label: "arXiv", url: "https://arxiv.org/abs/2607.00553" }
 
 - id: scirep25
+  venue_line: "Scientific Reports 2025 (Nature Portfolio)"
+  topics: ["Bio-inspired AI", "Graph Learning"]
   group: reviewed
   title: "Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms"
   authors: ["MD Azizul Hakim", "Mohammad Ifazul Alam"]
@@ -51,6 +57,8 @@
     }
 
 - id: qpain-cv
+  venue_line: "IEEE QPAIN 2025"
+  topics: ["Bio-inspired AI", "Vision"]
   group: reviewed
   title: "A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision"
   authors: ["MD Azizul Hakim", "Rashedul Arefin Ifty", "Khaled Eabne Delowar", "Samiul Azam Shuvo", "Zarin Tasneem", "Mohammad Ifazul Alam"]
@@ -61,6 +69,8 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11172203" }
 
 - id: qpain-nutri
+  venue_line: "IEEE QPAIN 2025"
+  topics: ["LLM Applications", "Health AI"]
   group: reviewed
   title: "NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention"
   authors: ["MD Azizul Hakim", "Rashedul Arefin Ifty", "Khaled Eabne Delowar", "Sazzad Hossen Chowdhury", "Imdadur Rashid", "Md Shakib"]
@@ -71,6 +81,8 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171750" }
 
 - id: qpain-graph
+  venue_line: "IEEE QPAIN 2025"
+  topics: ["Bio-inspired AI", "Molecular ML"]
   group: reviewed
   title: "Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification"
   authors: ["MD Azizul Hakim"]
@@ -82,6 +94,8 @@
     - { label: "Paper", url: "https://doi.org/10.1109/QPAIN66474.2025.11171860" }
 
 - id: brevity
+  venue_line: "arXiv 2026"
+  topics: ["LLM Evaluation", "Inference Efficiency"]
   group: preprint
   title: "Brevity Constraints Reverse Performance Hierarchies in Language Models"
   authors: ["MD Azizul Hakim"]
@@ -93,6 +107,8 @@
     - { label: "arXiv", url: "https://arxiv.org/abs/2604.00025" }
 
 - id: msth
+  venue_line: "arXiv 2026"
+  topics: ["Bio-inspired AI", "Robustness"]
   group: preprint
   title: "Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks"
   authors: ["MD Azizul Hakim"]

@@ -1,101 +1,106 @@
 ---
 layout: hk
 ---
-<div class="shell">
-  {% include hk-profile.html nav=true %}
+{% include hk-header.html %}
 
-  <main id="main" class="main">
+<aside class="toc" aria-label="On this page">
+  <p class="toc__title">On this page</p>
+  <a href="#about">Research summary</a>
+  <a href="#news">News and updates</a>
+  <a href="#publications">Publications</a>
+  <a href="#education">Education</a>
+  <a href="#honors">Honors and service</a>
+</aside>
 
-    <section class="intro" aria-labelledby="intro-title">
-      <h1 id="intro-title" class="intro__title">I study when language models should stop thinking.</h1>
+<main id="main" class="page">
 
-      <figure class="boundary">
-        <svg viewBox="0 0 340 150" role="img" aria-labelledby="boundary-cap">
-          <g class="boundary__grid">
-            <line x1="40" y1="20" x2="40" y2="122"/>
-            <line x1="40" y1="122" x2="326" y2="122"/>
-            <line class="boundary__guide" x1="183" y1="38" x2="183" y2="122"/>
-          </g>
-          <path class="boundary__curve" pathLength="1" d="M40,114 C78,110 104,86 128,64 C150,44 166,38 183,36.5 L326,35"/>
-          <circle class="boundary__point" cx="183" cy="36.5" r="4.5"/>
-          <g class="boundary__text">
-            <text x="34" y="26" text-anchor="end">acc.</text>
-            <text x="40" y="138" text-anchor="middle">128</text>
-            <text x="183" y="138" text-anchor="middle">1k</text>
-            <text x="326" y="138" text-anchor="end">8k tokens</text>
-            <text class="boundary__label" x="192" y="26">plateau near 1,000 tokens</text>
-          </g>
-        </svg>
-        <figcaption id="boundary-cap">The NeurIPS 2026 result, sketched: standard models stop gaining accuracy near 1,000 generated tokens. Training quality decides how quickly a model gets there.</figcaption>
-      </figure>
+  <section id="about" class="intro" aria-label="Research summary">
+    {{ content }}
+    <ul class="badges" aria-label="Profiles">
+      <li><a class="badge b-mail" href="mailto:{{ site.author.email }}">{% include hk-icon.html name="mail" %}Email</a></li>
+      <li><a class="badge b-scholar" href="{{ site.author.googlescholar }}">{% include hk-icon.html name="scholar" %}Google Scholar</a></li>
+      <li><a class="badge b-github" href="https://github.com/logicsame">{% include hk-icon.html name="github" %}GitHub</a></li>
+      <li><a class="badge b-hf" href="https://huggingface.co/Md-Hakim">{% include hk-icon.html name="hf" %}Hugging Face</a></li>
+      <li><a class="badge b-kaggle" href="https://www.kaggle.com/hakim11">{% include hk-icon.html name="kaggle" %}Kaggle</a></li>
+      <li><a class="badge b-linkedin" href="https://www.linkedin.com/in/md-azizul-hakim-0b2635359/">{% include hk-icon.html name="linkedin" %}LinkedIn</a></li>
+      <li><a class="badge b-cv" href="{{ '/assets/resume.pdf' | relative_url }}">{% include hk-icon.html name="cv" %}CV</a></li>
+    </ul>
+  </section>
 
-      {{ content }}
-    </section>
+  <section id="news" class="block" aria-labelledby="news-title">
+    <h2 id="news-title">News and updates</h2>
+    <ul class="news">
+      {% for n in site.data.news %}
+      <li{% if n.highlight %} class="is-major"{% endif %}><time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.month_only %}{{ n.date | date: "%B %Y" }}{% else %}{{ n.date | date: "%B %-d, %Y" }}{% endif %}</time>: {{ n.text }}</li>
+      {% endfor %}
+    </ul>
+  </section>
 
-    <section id="news" class="block" aria-labelledby="news-title">
-      <h2 id="news-title">News</h2>
-      {% assign news_top = site.data.news | slice: 0, 5 %}
-      {% assign news_rest = site.data.news | slice: 5, 100 %}
-      <ul class="news">
-        {% for n in news_top %}{% include hk-news-item.html item=n %}{% endfor %}
-      </ul>
-      {% if news_rest.size > 0 %}
-      <details class="more">
-        <summary>Earlier news</summary>
-        <ul class="news">
-          {% for n in news_rest %}{% include hk-news-item.html item=n %}{% endfor %}
-        </ul>
-      </details>
-      {% endif %}
-    </section>
+  <section id="publications" class="block" aria-labelledby="pubs-title">
+    <h2 id="pubs-title">Publications</h2>
 
-    <section id="papers" class="block" aria-labelledby="papers-title">
-      <h2 id="papers-title">Papers</h2>
-      <p class="block__note">Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
-      <h3 class="sub">Peer-reviewed</h3>
-      <ol class="papers">
-        {% for p in site.data.papers %}{% if p.group == "reviewed" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
-      </ol>
-      <h3 class="sub">Preprints</h3>
-      <ol class="papers">
-        {% for p in site.data.papers %}{% if p.group == "preprint" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
-      </ol>
-    </section>
+    <div class="record">
+      <p class="record__title">Publication record</p>
+      <div class="record__groups">
+        <div class="record__group">
+          <p>Conferences: <strong>4 papers, all first author</strong></p>
+          <ul class="chips"><li>NeurIPS 2026 × 1 <em>sole author</em></li><li>IEEE QPAIN 2025 × 3</li></ul>
+        </div>
+        <div class="record__group">
+          <p>Journals: <strong>2 papers, both first author</strong></p>
+          <ul class="chips"><li>Scientific Reports × 2</li></ul>
+        </div>
+      </div>
+    </div>
 
-    <section id="education" class="block" aria-labelledby="edu-title">
-      <h2 id="edu-title">Education</h2>
-      <ul class="rows">
-        <li>
-          <span class="rows__when">2021 – 2026</span>
-          <div><strong>Diploma-in-Engineering, Computer Science &amp; Technology</strong><br><span class="muted">Bangladesh Sweden Polytechnic Institute. CGPA 3.40 / 4.00.</span></div>
-        </li>
-      </ul>
-    </section>
+    <h3 class="sub">Peer-reviewed</h3>
+    <ol class="pubs">
+      {% for p in site.data.papers %}{% if p.group == "reviewed" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
+    </ol>
+    <h3 class="sub">Preprints</h3>
+    <ol class="pubs">
+      {% for p in site.data.papers %}{% if p.group == "preprint" %}{% include hk-paper-item.html p=p %}{% endif %}{% endfor %}
+    </ol>
+    <p class="block__note">Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+  </section>
 
-    <section id="honors" class="block" aria-labelledby="honors-title">
-      <h2 id="honors-title">Honors and service</h2>
-      <ul class="rows">
-        <li>
-          <span class="rows__when">2026</span>
-          <div><strong>NeurIPS 2026 award</strong>: complimentary registration and hotel stay</div>
-        </li>
-        <li>
-          <span class="rows__when">2025</span>
-          <div><strong>2nd runner-up</strong>, national AI Agent Development Competition at IIUC (200+ teams)</div>
-        </li>
-        <li>
-          <span class="rows__when">2024</span>
-          <div><strong>Kaggle Notebooks Master</strong></div>
-        </li>
-        <li>
-          <span class="rows__when">Reviewer</span>
-          <div>Frontiers in Artificial Intelligence, Frontiers in Computational Neuroscience, Frontiers in Nutrition</div>
-        </li>
-      </ul>
-    </section>
+  <section id="education" class="block" aria-labelledby="edu-title">
+    <h2 id="edu-title">Education</h2>
+    <ul class="entries">
+      <li>
+        <p><strong>Diploma-in-Engineering in Computer Science &amp; Technology</strong>, Bangladesh Sweden Polytechnic Institute <span class="when">2021 – 2026</span></p>
+        <p class="muted">Four-year program. CGPA 3.40 / 4.00.</p>
+      </li>
+    </ul>
+  </section>
 
-    <footer class="foot">
-      <p>Updated {{ site.time | date: "%B %Y" }}. Write to me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
-    </footer>
-  </main>
-</div>
+  <section id="honors" class="block" aria-labelledby="honors-title">
+    <h2 id="honors-title">Honors and service</h2>
+    <ul class="entries">
+      <li><p><strong>NeurIPS 2026 award</strong>: complimentary conference registration and hotel stay <span class="when">2026</span></p></li>
+      <li><p><strong>Article processing charge waivers</strong>, Nature Portfolio (Scientific Reports) <span class="when">2025 – 2026</span></p></li>
+      <li><p><strong>2nd runner-up</strong>, national AI Agent Development Competition at IIUC, 200+ teams <span class="when">2025</span></p></li>
+      <li><p><strong>Kaggle Notebooks Master</strong> <span class="when">2024</span></p></li>
+      <li><p><strong>Reviewer</strong>: Frontiers in Artificial Intelligence, Frontiers in Computational Neuroscience, Frontiers in Nutrition</p></li>
+    </ul>
+  </section>
+
+</main>
+{% include hk-footer.html %}
+
+<script>
+  (function () {
+    var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+    if (!('IntersectionObserver' in window) || !links.length) return;
+    var map = {};
+    links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) { a.removeAttribute('aria-current'); });
+        var a = map[e.target.id]; if (a) a.setAttribute('aria-current', 'true');
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    Object.keys(map).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+  })();
+</script>

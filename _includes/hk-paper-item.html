@@ -1,15 +1,8 @@
-{% assign p = include.p %}<li class="paper{% if p.feature %} is-feature{% endif %}" id="{{ p.id }}">
-  <span class="paper__venue" title="{{ p.venue_full }}">{{ p.venue }}</span>
-  <div class="paper__body">
-    <h4 class="paper__title">{{ p.title }}</h4>
-    <p class="paper__authors">{% for a in p.authors %}{% if a == "MD Azizul Hakim" %}<b>{{ a }}</b>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.sole %} <span class="muted">(sole author)</span>{% endif %}</p>
-    <p class="paper__tldr">{{ p.tldr }}</p>
-    {% if p.links.size > 0 or p.bibtex %}
-    <p class="paper__links">
-      {% for l in p.links %}{% assign u = l.url %}{% if u contains "://" %}{% else %}{% assign u = u | relative_url %}{% endif %}<a href="{{ u }}">{{ l.label }}</a>{% endfor %}
-      {% if p.bibtex %}<button type="button" class="cite" data-target="bib-{{ p.id }}" aria-expanded="false">BibTeX</button>{% endif %}
-    </p>
-    {% if p.bibtex %}<pre class="bib" id="bib-{{ p.id }}" hidden>{{ p.bibtex | strip | xml_escape }}</pre>{% endif %}
-    {% endif %}
-  </div>
+{% assign p = include.p %}<li class="pub{% if p.feature %} is-feature{% endif %}" id="{{ p.id }}">
+  {% assign main = p.links | first %}{% assign mu = main.url %}{% if mu contains "://" %}{% else %}{% assign mu = mu | relative_url %}{% endif %}
+  <p class="pub__title">{% if main %}<a href="{{ mu }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+  <p class="pub__authors">{% for a in p.authors %}{% if a == "MD Azizul Hakim" %}<b>{{ a }}</b>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.sole %} (Sole Author){% endif %}</p>
+  <p class="pub__tldr">{{ p.tldr }}</p>
+  <p class="pub__venue"><span class="v">{{ p.venue_line | default: p.venue }}</span>{% for l in p.links %}{% assign u = l.url %}{% unless u contains "://" %}{% assign u = u | relative_url %}{% endunless %} <a href="{{ u }}">[{{ l.label }}]</a>{% endfor %}{% if p.bibtex %} <button type="button" class="cite" data-target="bib-{{ p.id }}" aria-expanded="false">[BibTeX]</button>{% endif %}{% for t in p.topics %} <span class="dotsep" aria-hidden="true">▪</span> <span class="topic">{{ t }}</span>{% endfor %}</p>
+  {% if p.bibtex %}<pre class="bib" id="bib-{{ p.id }}" hidden>{{ p.bibtex | strip | xml_escape }}</pre>{% endif %}
 </li>

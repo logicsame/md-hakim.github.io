@@ -1,0 +1,16 @@
+<header class="masthead">
+  <div class="masthead__inner">
+    <div class="masthead__id">
+      <p class="masthead__name"><a href="{{ '/' | relative_url }}">MD Azizul Hakim</a> <span class="masthead__flag">NeurIPS 2026 Sole Author</span></p>
+      <p class="masthead__tag">AI Researcher <span class="sep">|</span> Reinforcement Learning · Looped Language Models · Training &amp; Inference Efficiency</p>
+    </div>
+    <nav class="masthead__nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}#about"{% if page.permalink == "/" %} aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/' | relative_url }}#news">News</a>
+      <a href="{{ '/' | relative_url }}#publications">Publications</a>
+      <a href="{{ '/' | relative_url }}#education">Education</a>
+      <a href="{{ '/' | relative_url }}#honors">Honors</a>
+      <a href="{{ '/assets/resume.pdf' | relative_url }}">CV</a>
+    </nav>
+  </div>
+</header>
