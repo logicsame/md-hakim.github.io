@@ -1,0 +1,181 @@
+\documentclass[10pt, a4paper]{article}
+
+% ---------- packages ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper, top=0.6in, bottom=0.6in, left=0.85in, right=0.85in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{parskip}
+
+% ---------- colours ----------
+\definecolor{linkblue}{RGB}{26, 13, 171}
+\definecolor{headblue}{RGB}{30, 60, 140}
+
+% ---------- hyperref ----------
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue,
+}
+
+% ---------- section style (small-caps + rule, like the template) ----------
+\titleformat{\section}
+  {\large\scshape\color{headblue}}
+  {}{0em}{}
+  [\color{black}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\titleformat{\subsection}
+  {\bfseries\color{headblue}}
+  {}{0em}{}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+% ---------- list style ----------
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em}
+
+% ---------- no page number ----------
+\pagestyle{empty}
+\setlength{\parskip}{2.5pt}
+
+% =========================================================
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+  {\huge\bfseries\color{headblue} MD Azizul Hakim}\\[1pt]
+  {\small AI Researcher \;|\; Reinforcement Learning \textbullet{} Looped Language Models \textbullet{} Training \& Inference Efficiency}\\[5pt]
+
+  \small
+  \href{mailto:azizulhakim8291@gmail.com}{\faEnvelope\ azizulhakim8291@gmail.com}
+  \quad
+  \href{https://logicsame.github.io/md-hakim.github.io/}{\faGlobe\ Website}
+  \quad
+  \href{https://scholar.google.com/citations?user=jVyIovcAAAAJ&hl=en}{\faGraduationCap\ Google Scholar}
+  \quad
+  \href{https://github.com/logicsame}{\faGithub\ GitHub}
+  \quad
+  \href{https://huggingface.co/Md-Hakim}{\faCube\ Hugging Face}
+  \quad
+  \href{https://www.linkedin.com/in/md-azizul-hakim-0b2635359/}{\faLinkedin\ LinkedIn}
+\end{center}
+
+% ---------- RESEARCH INTERESTS ----------
+\section{Research Interests}
+Reasoning efficiency in large language models: how training quality shapes test-time compute;
+reinforcement learning for reasoning (reward design for RL post-training);
+looped language models and adaptive computation depth;
+training and inference efficiency of LLMs.
+
+% ---------- EDUCATION ----------
+\section{Education}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+  \textbf{Diploma-in-Engineering in Computer Science and Technology} & \textbf{Jul 2021 -- Feb 2026}\\
+  Bangladesh Sweden Polytechnic Institute & CGPA: 3.40/4.00\\
+\end{tabularx}
+
+\smallskip
+\noindent
+\textit{Seeking fully funded BSc opportunities at international universities for 2026--2027 admission.}
+
+% ---------- PUBLICATIONS ----------
+\section{Publications}
+
+\subsection*{Top-Tier Conference --- Sole Author}
+\noindent
+\textbf{[1]}\ \underline{\textbf{Hakim, MD Azizul}} (2026).
+``Training Quality Determines Efficiency Boundaries in Test-Time Reasoning.''
+\textit{Advances in Neural Information Processing Systems} (\textbf{NeurIPS 2026, Main Track, Poster}).
+50 models, 67{,}000+ evaluations, 6 benchmarks.
+\href{https://neurips.cc/virtual/2026/loc/sydney/poster/150721}{[poster]}
+\href{https://github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning}{[code]}
+
+\subsection*{Journal Articles}
+\noindent
+[J1]\ \underline{\textbf{Hakim, M.A.}}, Uddin, M.S., \& Anis, T.I. (2026).
+``Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks.''
+\textit{Scientific Reports} (Nature Portfolio). \textbf{Accepted}.
+\href{https://arxiv.org/abs/2607.00553}{[arXiv]}
+\href{https://github.com/logicsame/Cross-Domain-Generalization-Failure-in-Lightweight-Intrusion-Detection-Models-for-IIoT-Networks}{[code]}
+
+\smallskip
+\noindent
+[J2]\ \underline{\textbf{Hakim, M.A.}}, \& Alam, M.I. (2025).
+``Biologically inspired neural network layer with homeostatic regulation and adaptive repair mechanisms.''
+\textit{Scientific Reports} (Nature Portfolio), 15.
+\href{https://doi.org/10.1038/s41598-025-09114-8}{[paper]}
+\href{https://github.com/logicsame/bio-logical-self-healing-neural-system}{[code]}
+
+\subsection*{Conference Papers}
+\noindent
+[C1]\ \underline{\textbf{Hakim, M.A.}}, Ifty, R.A., Delowar, K.E., Shuvo, S.A., Tasneem, Z., \& Alam, M.I. (2025).
+``A Novel Neuroplasticity-Based Approach for Enhanced Generalization in Computer Vision.''
+\textit{IEEE QPAIN 2025}.
+\href{https://doi.org/10.1109/QPAIN66474.2025.11172203}{[paper]}
+
+\smallskip
+\noindent
+[C2]\ \underline{\textbf{Hakim, M.A.}}, Ifty, R.A., Delowar, K.E., Chowdhury, S.H., Rashid, I., \& Shakib, M. (2025).
+``NutriGuard: LLM-Driven Nutritional Assessment for Chronic Disease Prevention.''
+\textit{IEEE QPAIN 2025}.
+\href{https://doi.org/10.1109/QPAIN66474.2025.11171750}{[paper]}
+
+\smallskip
+\noindent
+[C3]\ \underline{\textbf{Hakim, M.A.}}, Ifty, R.A., Delowar, K.E., Shuvo, S.A., Tasneem, Z., \& Alam, M.I. (2025).
+``Neuroadaptive Intelligence: A Biologically-Inspired, Self-Repairing Neural Layer with Adaptive Learning for Molecular Graph Classification.''
+\textit{IEEE QPAIN 2025}.
+\href{https://doi.org/10.1109/QPAIN66474.2025.11171860}{[paper]}
+
+\subsection*{Preprints}
+\noindent
+[P1]\ \underline{\textbf{Hakim, MD Azizul}} (2026).
+``Brevity Constraints Reverse Performance Hierarchies in Language Models.''
+\textit{arXiv:2604.00025}.
+\href{https://arxiv.org/abs/2604.00025}{[arXiv]}
+\href{https://github.com/logicsame/Brevity-Constraints-Reverse-Performance-Hierarchies-in-Language-Models}{[code]}
+
+\smallskip
+\noindent
+[P2]\ \underline{\textbf{Hakim, MD Azizul}} (2026).
+``Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks.''
+\textit{arXiv:2602.07009}.
+\href{https://arxiv.org/abs/2602.07009}{[arXiv]}
+\href{https://github.com/logicsame/Multi-Scale-Homeostatic-Regulation-in-Artificial-Neural-Network}{[code]}
+
+\smallskip
+\noindent
+{\small\textit{IEEE QPAIN: IEEE International Conference on Quantum Photonics, Artificial Intelligence \& Networking.}}
+
+% ---------- AWARDS ----------
+\section{Awards \& Honors}
+\noindent
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+  \textbf{NeurIPS 2026 Award} --- complimentary conference registration and hotel stay (Sydney) & \textbf{2026}\\[4pt]
+  \textbf{2nd Runner-Up --- AI Agent Development Competition} (200+ teams) & \textbf{2025}\\
+  \multicolumn{2}{@{}l@{}}{\textit{Insten Company in collaboration with International Islamic University Chittagong (IIUC)}}\\[4pt]
+  \textbf{Kaggle Notebooks Master} --- \href{https://www.kaggle.com/hakim11}{kaggle.com/hakim11} & \textbf{2024}\\
+\end{tabularx}
+
+% ---------- TECHNICAL SKILLS ----------
+\section{Technical Skills}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{3.9cm} X@{}}
+  Languages            & Python, SQL, JavaScript, MATLAB, \LaTeX \\[1pt]
+  LLM Training         & PyTorch, Hugging Face Transformers, TRL (GRPO), reward design for RL post-training \\[1pt]
+  LLM Inference \& Eval & vLLM, large-scale evaluation pipelines, test-time compute analysis \\[1pt]
+  ML/DL                & Scikit-learn, PyTorch Geometric, XGBoost, LightGBM, OpenCV \\[1pt]
+  Compute \& Tools      & Kaggle, Modal (H200/B200 GPUs), Docker, Git, MLflow \\[1pt]
+  LLM Applications     & LangChain, LangGraph, CrewAI, RAG \\
+\end{tabularx}
+
+\end{document}

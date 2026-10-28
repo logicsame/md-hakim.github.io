@@ -1,20 +1,20 @@
 # Newest first. `text` accepts inline HTML. Set `highlight: true` for major items.
 - date: 2026-10-24
   highlight: true
-  text: 'Paper accepted in <strong>Scientific Reports</strong>: <em>Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks</em>.'
+  text: 'Paper accepted in <strong>Scientific Reports</strong> (Nature Portfolio): <a href="https://arxiv.org/abs/2607.00553"><em>Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks</em></a>.'
 - date: 2026-10-16
   highlight: true
-  text: 'Received a <strong>NeurIPS 2026</strong> award covering complimentary conference registration and hotel stay in Sydney.'
+  text: 'Received a <strong>NeurIPS 2026 award</strong> covering <strong>complimentary conference registration and hotel stay</strong> in Sydney, to <a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150721">present my poster</a>.'
 - date: 2026-09-25
   highlight: true
-  text: '<em>Training Quality Determines Efficiency Boundaries in Test-Time Reasoning</em> accepted at <strong>NeurIPS 2026</strong> (main track, poster) as a sole-author paper.'
+  text: '<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150721"><em>Training Quality Determines Efficiency Boundaries in Test-Time Reasoning</em></a> accepted at <strong>NeurIPS 2026</strong> (main track, poster) as a <strong>sole-author paper</strong>.'
 - date: 2026-07-01
-  text: 'IIoT cross-domain intrusion detection preprint released on <a href="https://arxiv.org/abs/2607.00553">arXiv</a>.'
+  text: '<strong>IIoT intrusion detection</strong> preprint released on <a href="https://arxiv.org/abs/2607.00553">arXiv</a>.'
 - date: 2026-04-11
   text: '<em>Brevity Constraints Reverse Performance Hierarchies in Language Models</em> released on <a href="https://arxiv.org/abs/2604.00025">arXiv</a>.'
 - date: 2026-02-28
   month_only: true
-  text: 'Completed my Diploma in Computer Science &amp; Technology at Bangladesh Sweden Polytechnic Institute.'
+  text: 'Completed my <strong>Diploma in Computer Science &amp; Technology</strong> at Bangladesh Sweden Polytechnic Institute.'
 - date: 2026-02-01
   month_only: true
   text: '<em>Multi-Scale Temporal Homeostasis Enables Efficient and Robust Neural Networks</em> released on <a href="https://arxiv.org/abs/2602.07009">arXiv</a>.'

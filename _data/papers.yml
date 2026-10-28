@@ -14,6 +14,7 @@
   tldr: "Across 50 language models (0.5B–685B) and 67,000+ evaluations, training methodology rather than size or token budget decides where extra reasoning tokens stop helping. Capping generation length lifts accuracy by 15.4 points."
   links:
     - { label: "Abstract", url: "/publication/2026-training-quality-efficiency-boundaries" }
+    - { label: "Poster", url: "https://neurips.cc/virtual/2026/loc/sydney/poster/150721" }
     - { label: "Code", url: "https://github.com/logicsame/Training-Quality-Determines-Efficiency-Boundaries-in-Test-Time-Reasoning" }
 
 - id: scirep26
