@@ -271,9 +271,14 @@ a:hover { text-decoration-color: var(--ink); text-decoration-thickness: 2px; }
 .thread__glyph .g-ghost rect { fill: none; stroke: var(--faint); stroke-width: 1.2; stroke-dasharray: 2 2; }
 .thread__glyph .g-stop { stroke: var(--maroon); stroke-width: 2; }
 .thread__glyph .g-block { fill: var(--maroon-soft); stroke: var(--ink); stroke-width: 1.6; }
+.threads--glyph li { padding-left: 96px; min-height: 92px; }
+.thread__glyph {
+  top: 16px; width: 72px; height: 56px; padding: 10px 8px;
+  background: var(--maroon-soft); border-radius: 10px; box-sizing: border-box;
+}
 @media (max-width: 520px) {
-  .threads--glyph li { padding-left: 0; padding-top: 64px; }
-  .thread__glyph { top: 14px; }
+  .threads--glyph li { padding-left: 76px; min-height: 80px; }
+  .thread__glyph { top: 16px; width: 60px; height: 48px; padding: 8px 6px; }
 }
 
 /* ---------- NeurIPS figure ---------- */
